@@ -1,0 +1,17 @@
+QUERY 1
+Allowing employees to work remotely reduces commuting and directly supports company sustainability objectives.
+
+QUERY 2
+Company policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.
+
+QUERY 3
+Management believes limiting remote work leads to better collaboration and higher productivity.
+
+QUERY 4
+The upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.
+
+QUERY 5
+Employees are required to be physically present in the office every weekday.
+
+QUERY 6
+When legal investigations occur, normal customer data deletion rules must be paused.
