@@ -12,7 +12,7 @@ from langchain_community.vectorstores.utils import DistanceStrategy
 load_dotenv()
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash", temperature = 0)
+    model="gemini-2.5-flash-lite", temperature = 0)
 embeddings = GoogleGenerativeAIEmbeddings(
     model="models/gemini-embedding-001",
     #model = "text-embedding-004"
