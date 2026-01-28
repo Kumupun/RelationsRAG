@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 
-from langchain.agents import create_agent
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -13,31 +12,39 @@ from langchain_community.vectorstores.utils import DistanceStrategy
 load_dotenv()
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash-lite", temperature = 0)
+    model="gemini-2.5-flash", temperature = 0)
 embeddings = GoogleGenerativeAIEmbeddings(
-    #model="models/gemini-embedding-001",
-    model = "text-embedding-004"
+    model="models/gemini-embedding-001",
+    #model = "text-embedding-004"
 )
 
 doc1_path = "Doc1.txt"
 doc2_path = "Doc2.txt"
 
-with open(doc1_path, "r", encoding="utf-8") as f:
-    doc1_text = f.read()
+def loader(file_path: str) -> str:
+    with open(file_path, "r", encoding="utf-8") as f:
+        return f.read()
 
-with open(doc2_path, "r", encoding="utf-8") as f:
-    doc2_text = f.read()
+try:
+    doc1_text = loader(doc1_path)
+    doc2_text = loader(doc2_path)
+    print("Documents have been loaded successfully.")
+except Exception as e:
+    print(f"Error loading documents: {e}")
+    raise   
 
 docs1 = [Document(page_content=doc1_text, metadata={"source": "doc1"})]
 docs2 = [Document(page_content=doc2_text, metadata={"source": "doc2"})]
 
 text_splitter1 = RecursiveCharacterTextSplitter(
     chunk_size=300,
-    chunk_overlap=100
+    chunk_overlap=100,
+    separators=["\n\n", "\n", ".", "!", "?"]
 )
 text_splitter2 = RecursiveCharacterTextSplitter(
     chunk_size=100,
-    chunk_overlap=50
+    chunk_overlap=50,
+    separators=["\n\n", "\n", ".", "!", "?"]
 )
 parag_split1 = text_splitter1.split_documents(docs1)
 parag_split2 = text_splitter2.split_documents(docs2)
@@ -45,7 +52,7 @@ parag_split2 = text_splitter2.split_documents(docs2)
 vectorstore = FAISS.from_documents(
     parag_split1,
     embeddings,
-    distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT
+    distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT # For cosine similarity
 )
 
 def analyse_similarity():  
@@ -53,10 +60,9 @@ def analyse_similarity():
     for chunk in parag_split2:
         matches = vectorstore.similarity_search_with_score(
         chunk.page_content,
-        k=2
+        k=3
     )
         for doc, score in matches:
-                print(f"Score: {score} for chunk: {chunk.page_content[:50]}...")
                 if score > 0.65:
                     chunks_similar.append((chunk, doc, score))
     return chunks_similar
