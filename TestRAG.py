@@ -21,7 +21,7 @@ embeddings = GoogleGenerativeAIEmbeddings(
 doc1_path = "Doc1.txt"
 doc2_path = "Doc2.txt"
 
-def loader(file_path: str) -> str:
+def loader(file_path: str) :
     with open(file_path, "r", encoding="utf-8") as f:
         return f.read()
 
