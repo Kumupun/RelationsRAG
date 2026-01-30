@@ -42,6 +42,7 @@ text_splitter1 = RecursiveCharacterTextSplitter(
     chunk_overlap=50,
     separators=["\n\n", "\n", ".", "!", "?"]
 )
+
 text_splitter2 = RecursiveCharacterTextSplitter(
     chunk_size=200,
     chunk_overlap=0,
