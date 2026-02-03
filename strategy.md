@@ -51,7 +51,7 @@ Each chunk is treated as an independent query unit.
 
 ## Embeddings & Vector Store
 
-- Embeddings: `models/gemini-embedding-001`
+- Embeddings: `nomic-embed-text`
 - Vector store: FAISS
 - Distance metric: Cosine similarity
 
@@ -73,7 +73,7 @@ If no matches are found, the system returns “I don’t know.”
 
 ## Relationship Generation (RAG)
 
-For every query chunk, the system prompts Gemini with:
+For every query chunk, the system prompts qwen3:8b with:
 
 - Document B chunk (query)
 - Retrieved Document A chunk (source)
@@ -95,7 +95,7 @@ This produces a concise relationship statement such as:
 
 After generating a relationship, three independent evaluators are applied.
 
-Each evaluator uses Gemini 2.5 Flash with structured JSON output.
+Each evaluator uses qwen3:8b with structured JSON output.
 
 
 ### 1. Relevance

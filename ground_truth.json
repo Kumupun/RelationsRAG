@@ -1,0 +1,26 @@
+[
+  {
+    "query_chunk": "Allowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+    "answer": "RELATIONSHIP: supports\nREASON: Document 2 explicitly states that remote and hybrid work reduces commuting-related emissions and contributes to sustainability goals."
+  },
+  {
+    "query_chunk": "Company policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+     "answer": "RELATIONSHIP: contradicts\nREASON: Document 4 requires indefinite preservation of customer data during legal investigations, which conflicts with the claim that data must always be deleted after five years."
+  },
+  {
+    "query_chunk": "Management believes limiting remote work leads to better collaboration and higher productivity.",
+    "answer": "RELATIONSHIP: supports\nREASON: Document 5 states that leadership encourages increased on-site presence and minimizing remote work to improve productivity and team cohesion."
+  },
+  {
+    "query_chunk": "The upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+    "answer": "RELATIONSHIP: supports\nREASON: Document 6 confirms that the June 2025 release focuses on backend performance improvements and explicitly excludes major user interface changes."
+  },
+  {
+    "query_chunk": "Employees are required to be physically present in the office every weekday.",
+   "answer": "RELATIONSHIP: contradicts\nREASON: Document 1 allows employees to work remotely up to three days per week, requiring in-person attendance only on Mondays."
+  },
+  {
+    "query_chunk": "When legal investigations occur, normal customer data deletion rules must be paused.",
+    "answer": "RELATIONSHIP: supports\nREASON: Document 4 explicitly states that routine deletion policies are suspended during legal investigations."
+  }
+]
