@@ -128,17 +128,15 @@ Checks whether the retrieved chunk:
 
 Output: `True / False`
 
+### 4. Corectness
+
+Checks whether the relationship:
+
+- Is factually correct based on the ground truth
+- Is not completely unrelated to the query
+
+Output: `True / False`
 
 ## Output
 
-For each chunk in Document B, the system produces:
-
-- Query chunk
-- Retrieved chunk
-- Relationship answer
-- Scores:
-  - grounded
-  - relevant
-  - retrieval_relevant
-
-Results are printed to the console for inspection.
+The system converts and saves the result to json file.

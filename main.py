@@ -12,13 +12,13 @@ from Eval_class import evaluate
 import json
 import time
 
-doc1_path = "Doc1.txt"
-doc2_path = "Doc2.txt"
+doc1_path = "Documents\Doc1.txt"
+doc2_path = "Documents\Doc2.txt"
 
 parag_split1 = chunking(doc1_path, chunk_size=300, chunk_overlap=50)
 parag_split2 = chunking(doc2_path, chunk_size=200, chunk_overlap=0)
 
-with open("ground_truth.json", "r", encoding="utf-8") as f:
+with open("Documents\ground_truth.json", "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
 
 llm = ChatOllama(
@@ -61,7 +61,7 @@ async def main():
         eval =  evaluate(chunk, truth)
         results.append((chunk, eval))
     json_output(results, "results.json")
-    
+
     t2 = time.perf_counter()
     print(f"Evaluation completed in {t2 - t1:.2f} seconds.")
     print(f"Total pipeline time: {t2 - t0:.2f} seconds.")
