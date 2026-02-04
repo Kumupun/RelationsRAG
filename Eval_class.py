@@ -2,11 +2,11 @@ from langchain_ollama import ChatOllama
 from typing_extensions import Annotated, TypedDict
 
 class EvalGrade(TypedDict):
-    explanation: Annotated[str, ..., "Explain your reasoning"]
     grounded: Annotated[bool, ..., "True if grounded in source"]
     relevant: Annotated[bool, ..., "True if answer is relevant to query"]
     retrieval_relevant: Annotated[bool, ..., "True if retrieved facts are relevant"]
     correct: Annotated[bool, ..., "True if answer is factually correct"]
+    explanation: Annotated[str, ..., "Explain your reasoning for each criterion with a list 1. grounded, 2. relevant, 3. retrieval_relevant, 4. correct"]
 
 eval_instructions = """
 You are a strict RAG evaluator.

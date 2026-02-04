@@ -1,7 +1,8 @@
 from langchain_ollama import ChatOllama
 from langchain_community.vectorstores import FAISS
 
-def RAG_similarity(query_chunk: str, vectorstore: FAISS, llm: ChatOllama) -> dict:
+
+async def RAG_similarity(query_chunk: str, vectorstore: FAISS, llm: ChatOllama) -> dict:
     matches = vectorstore.similarity_search(query_chunk, k=3)
 
     if not matches:
@@ -31,7 +32,7 @@ Document B:
 {top_match.page_content}
 """
 
-    response = llm.invoke(prompt)
+    response = await llm.ainvoke(prompt)
 
     return {
         "query_chunk": query_chunk,

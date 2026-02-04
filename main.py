@@ -1,7 +1,7 @@
 
+import asyncio
 from langchain_community.vectorstores import FAISS
 from langchain_community.vectorstores.utils import DistanceStrategy
-
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 
 from RAG import RAG_similarity
@@ -9,13 +9,14 @@ from Chunking import chunking
 # from Evaluation import relevance, groundedness, retrieval_relevance
 from Eval_class import evaluate
 
+import json
+import time
+
 doc1_path = "Doc1.txt"
 doc2_path = "Doc2.txt"
 
 parag_split1 = chunking(doc1_path, chunk_size=300, chunk_overlap=50)
-parag_split2 = chunking(doc2_path, chunk_size=150, chunk_overlap=0)
-
-import json
+parag_split2 = chunking(doc2_path, chunk_size=200, chunk_overlap=0)
 
 with open("ground_truth.json", "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
@@ -44,21 +45,34 @@ vectorstore = FAISS.from_documents(
 #     }
 
 #     results.append((output, scores))
+def json_output(results, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
 
-results = []
-for chunk,truth in zip(parag_split2, ground_truth):
-    output = RAG_similarity(chunk.page_content, vectorstore, llm)
-    eval_scores = evaluate(output, truth)
-    results.append((output, eval_scores))
+async def main():
+    results = []
+    t0 = time.perf_counter()
+    rag_process = [RAG_similarity(chunk.page_content, vectorstore, llm) for chunk in parag_split2]
+    rag_results = await asyncio.gather(*rag_process)
+    t1 = time.perf_counter()
+    print(f"RAG processing completed in {t1 - t0:.2f} seconds.")
 
-for output, scores in results:
-    print("=" * 80)
-    print("QUERY:")
-    print(output["query_chunk"])
-    print("\nDOCUMENT:")
-    print(output["document_chunk"])
-    print("\nANSWER:")
-    print(output["answer"])
-    print("\nEVALUATION SCORES:")
-    for k, v in scores.items():
-        print(f"  {k}: {v}")
+    for chunk, truth in zip(rag_results, ground_truth):
+        eval =  evaluate(chunk, truth)
+        results.append((chunk, eval))
+    json_output(results, "results.json")
+    
+    t2 = time.perf_counter()
+    print(f"Evaluation completed in {t2 - t1:.2f} seconds.")
+    print(f"Total pipeline time: {t2 - t0:.2f} seconds.")
+    print("Evaluation completed. Results saved to results.json")
+    return 
+
+if __name__ == "__main__":
+    start = time.perf_counter()
+    asyncio.run(main())
+    end = time.perf_counter()
+
+    
+
+
