@@ -8,6 +8,18 @@ class EvalGrade(TypedDict):
     correct: Annotated[bool, ..., "True if answer is factually correct"]
     explanation: Annotated[str, ..., "Explain your reasoning for each criterion with a list 1. grounded, 2. relevant, 3. retrieval_relevant, 4. correct"]
 
+def scores_result (results: list[EvalGrade]) -> dict[str, float]:
+    total = len(results)
+    if total == 0:
+        return {metric: 0 for metric in ["grounded", "relevant", "retrieval_relevant", "correct"]}
+    scores = {metric: (0, total) for metric in ["grounded", "relevant", "retrieval_relevant", "correct"]}
+    for _, eval in results:
+        for metric in scores.keys():
+            if eval[metric]:
+                scores[metric] = (scores[metric][0] + 1, total)
+            else:
+                scores[metric] = (scores[metric][0], total)
+    return scores
 eval_instructions = """
 You are a strict RAG evaluator.
 
