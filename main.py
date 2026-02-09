@@ -53,8 +53,12 @@ async def main():
     print("Evaluation completed. Results saved to results.json")
 
     scores = scores_result(results)
-    for i in scores:
-        print(f"{i} score: {scores[i][0]}/{scores[i][1]} = {scores[i][0]/scores[i][1]:.2%}")
+    weighted_score= sum([scores[metric][2]*scores[metric][1] for metric in scores.keys()])/sum([scores[metric][1] for metric in scores.keys()])
+
+    # for i in scores:
+    #     print(f"{i} score: {scores[i][0]}/{scores[i][1]} = {scores[i][0]/scores[i][1]:.2%}")  № Print scores in percentage format
+
+    print(f"Aggregated Score: {weighted_score:.2%}")
 
     t2 = time.perf_counter()
 
