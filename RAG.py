@@ -2,17 +2,22 @@ from langchain_ollama import ChatOllama
 from langchain_community.vectorstores import FAISS
 
 
-async def RAG_similarity(query_chunk: str, vectorstore: FAISS, llm: ChatOllama) -> dict:
+async def RAG_similarity(query_chunk: str, vectorstore: FAISS, llm: ChatOllama, threshold: float) -> dict:
     matches = vectorstore.similarity_search(query_chunk, k=3)
 
-    if not matches:
+    threshold_match = [(doc, score)
+        for doc, score in matches
+        if score >= threshold]
+
+    if not threshold_match:
         return {
             "query_chunk": query_chunk,
             "document_chunk": "", 
-            "answer": "I don't know. No relevant documents were retrieved."
+            "answer": "I don't know. No relevant documents were retrieved.",
+            "similarity_score": None
         }
 
-    top_match = matches[0]
+    top_match,score = threshold_match[0]
 
     prompt = f"""You are a helpful assistant who is good at analyzing source information and finding relationships between documents.
 
@@ -38,4 +43,5 @@ Document B:
         "query_chunk": query_chunk,
         "document_chunk": top_match.page_content,
         "answer": response.content,
+        "similarity_score": score
     }
