@@ -6,8 +6,9 @@ from langchain_ollama import ChatOllama, OllamaEmbeddings
 
 from RAG import RAG_similarity
 from Chunking import chunking
-# from Evaluation import relevance, groundedness, retrieval_relevance
+from  Score_class import ThresholdTuner
 from Eval_class import evaluate, scores_result
+
 
 import json
 import time
@@ -23,7 +24,7 @@ with open(r"Documents\ground_truth.json", "r", encoding="utf-8") as f:
 
 llm = ChatOllama(
     model="qwen3:8b",
-    temperature = 1)
+    temperature = 0.5)
 
 embeddings = OllamaEmbeddings(
     model="nomic-embed-text",
@@ -40,31 +41,31 @@ def json_output(results, filename):
         json.dump(results, f, ensure_ascii=False, indent=4)
 
 async def main():
-    results = []
     t0 = time.perf_counter()
-    rag_process = [RAG_similarity(chunk.page_content, vectorstore, llm) for chunk in parag_split2]
-    rag_results = await asyncio.gather(*rag_process)
+    tuner = ThresholdTuner(vectorstore, ground_truth, llm, parag_split2, evaluate, scores_result)
+    best_threshold, best_score = await tuner.tune()
+
+    print(f"Best threshold: {best_threshold:.4f} with score: {best_score:.2%}")
+
     t1 = time.perf_counter()
+    rag_process = [RAG_similarity(chunk.page_content, vectorstore, llm, best_threshold) for chunk in parag_split2]
+    rag_results = await asyncio.gather(*rag_process)
+    t2 = time.perf_counter()
     
+    results = []
     for chunk, truth in zip(rag_results, ground_truth):
         eval =  evaluate(chunk, truth)
         results.append((chunk, eval))
+
     json_output(results, "results.json")
     print("Evaluation completed. Results saved to results.json")
 
-    scores = scores_result(results)
-    weighted_score= sum([scores[metric][2]*scores[metric][1] for metric in scores.keys()])/sum([scores[metric][1] for metric in scores.keys()])
+    t3 = time.perf_counter()
 
-    # for i in scores:
-    #     print(f"{i} score: {scores[i][0]}/{scores[i][1]} = {scores[i][0]/scores[i][1]:.2%}")  № Print scores in percentage format
-
-    print(f"Aggregated Score: {weighted_score:.2%}")
-
-    t2 = time.perf_counter()
-
-    print(f"RAG processing completed in {t1 - t0:.2f} seconds.")
-    print(f"Evaluation completed in {t2 - t1:.2f} seconds.")
-    print(f"Total pipeline time: {t2 - t0:.2f} seconds.")
+    print(f"Tuning completed in {t1 - t0:.2f} seconds.")
+    print(f"RAG processing completed in {t2 - t1:.2f} seconds.")
+    print(f"Evaluation completed in {t3 - t2:.2f} seconds.")
+    print(f"Total pipeline time: {t3 - t0:.2f} seconds.")
     return 
 
 if __name__ == "__main__":

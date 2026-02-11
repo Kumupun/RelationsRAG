@@ -3,10 +3,14 @@ import asyncio
 from RAG import RAG_similarity
 
 class ThresholdTuner:
-    def __init__(self, vectorstore, ground_truth, higher_is_better=True):
+    def __init__(self, vectorstore, ground_truth, llm, query_chunks, evaluate_fn, scores_fn, higher_is_better=True):
         self.vectorstore = vectorstore
         self.ground_truth = ground_truth
         self.higher_is_better = higher_is_better
+        self.llm = llm
+        self.query_chunks = query_chunks
+        self.evaluate = evaluate_fn
+        self.scores_result = scores_fn
 
     async def evaluate_threshold(self, threshold):
 
@@ -40,7 +44,7 @@ class ThresholdTuner:
         raw_scores = []
 
         for chunk in self.query_chunks:
-            matches = self.vectorstore.similarity_search_with_score(
+            matches = await self.vectorstore.asimilarity_search_with_relevance_scores(
                 chunk.page_content,
                 k=1
             )
@@ -51,7 +55,7 @@ class ThresholdTuner:
         min_s = min(raw_scores)
         max_s = max(raw_scores)
 
-        thresholds = np.linspace(min_s, max_s, 15)
+        thresholds = np.linspace(min_s, max_s, 5)
 
         best_threshold = None
         best_score = 0

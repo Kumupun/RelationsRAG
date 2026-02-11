@@ -3,7 +3,7 @@ from langchain_community.vectorstores import FAISS
 
 
 async def RAG_similarity(query_chunk: str, vectorstore: FAISS, llm: ChatOllama, threshold: float) -> dict:
-    matches = vectorstore.similarity_search(query_chunk, k=3)
+    matches = await vectorstore.asimilarity_search_with_relevance_scores(query_chunk, k=3)
 
     threshold_match = [(doc, score)
         for doc, score in matches
@@ -14,7 +14,6 @@ async def RAG_similarity(query_chunk: str, vectorstore: FAISS, llm: ChatOllama, 
             "query_chunk": query_chunk,
             "document_chunk": "", 
             "answer": "I don't know. No relevant documents were retrieved.",
-            "similarity_score": None
         }
 
     top_match,score = threshold_match[0]
@@ -43,5 +42,4 @@ Document B:
         "query_chunk": query_chunk,
         "document_chunk": top_match.page_content,
         "answer": response.content,
-        "similarity_score": score
     }

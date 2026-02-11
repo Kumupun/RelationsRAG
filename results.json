@@ -3,70 +3,70 @@
         {
             "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
             "document_chunk": "Impact Assessment\nInternal modeling indicates that allowing employees to work remotely several days per week could reduce commuting-related emissions by approximately 12 percent annually.\n\nThe sustainability office will publish quarterly progress reports and adjust strategies as necessary.\n\n---",
-            "answer": "Yes, a relationship exists. Both documents discuss the impact of remote work on commuting and sustainability, with Document B providing quantitative data (12% emission reduction) supporting Document A's claim. No uncertainty is present."
+            "answer": "A relationship exists between the documents.  \nBoth discuss remote work's impact on commuting and sustainability, with Document B providing specific data (12% emissions reduction) that supports Document A's claim of supporting sustainability objectives.  \nNo uncertainty; the connection is clear through shared concepts."
         },
         {
             "grounded": true,
             "relevant": true,
             "retrieval_relevant": true,
             "correct": true,
-            "explanation": "The answer is grounded in the facts because it explicitly references the 12% emission reduction statistic from Document B to support Document A's claim. It remains relevant by directly addressing the relationship between remote work and sustainability objectives. The retrieval relevance is satisfied as the facts contain key terms ('remote work', 'commuting', 'emissions', 'sustainability') matching the query. The answer is factually correct as it aligns with the ground truth that Document B explicitly supports Document A's claim about remote work reducing commuting-related emissions and contributing to sustainability goals."
+            "explanation": "The answer is grounded in the facts because it explicitly references the 12% emissions reduction statistic from Document B to support Document A's claim. It is relevant because it directly addresses the relationship between remote work and sustainability objectives. The retrieval is relevant as the facts contain key terms ('remote work', 'commuting', 'emissions', 'sustainability') matching the query. The answer is factually correct according to the ground truth, which confirms the 'supports' relationship through Document B's explicit connection between remote work and sustainability goals."
         }
     ],
     [
         {
             "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
             "document_chunk": "Retention Rules\nAll customer personal data must be retained for exactly five years from the date of last interaction. After this period expires, the data must be permanently deleted from all production systems, backups, and archives.",
-            "answer": "A relationship exists between the documents. Both establish a five-year retention period for customer data followed by deletion, but they differ in the timing metric (collection date vs. last interaction). The core policy of data deletion after five years is consistent, though the specific trigger for the period varies."
+            "answer": "A relationship exists between the documents. Both outline a five-year retention period for customer data followed by deletion, but they differ in the starting point for calculating the retention period (collection date vs. last interaction date). The policies share the core concept of time-based data retention but diverge in implementation details."
         },
         {
             "grounded": true,
             "relevant": true,
             "retrieval_relevant": true,
             "correct": true,
-            "explanation": "The answer is grounded in the facts because it correctly identifies the five-year retention period as the core policy, while noting the difference in timing metrics (collection date vs. last interaction). It is relevant to the query about policy consistency. The retrieval_relevance is satisfied because the facts contain the key semantic meaning of the five-year retention period. The answer is factually correct relative to the provided facts, even though the ground truth introduces a different contradiction (Document 4) that is not part of the evaluated facts. The answer does not hallucinate information beyond the provided facts."
+            "explanation": "1. Grounded: The answer correctly identifies the five-year retention period in both documents (QUERY 2 and FACTS) and notes the difference in start dates (collection vs. last interaction). It does not introduce hallucinated information beyond the provided facts. 2. Relevant: The answer directly addresses the query by comparing the two documents' retention policies and highlighting their core similarity (five-year period) and implementation difference (start date). 3. Retrieval Relevant: The FACTS contain the key semantic element of a five-year retention period, which is directly related to the QUERY's five-year rule. 4. Correctness: The answer accurately describes the relationship between the documents as per the provided facts (similar core concept, differing implementation details). The ground truth's mention of Document 4 is not part of the provided facts, so the answer's correctness is evaluated solely against the given information."
         }
     ],
     [
         {
             "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
             "document_chunk": "Rationale\nLeadership believes that moderate remote work improves job satisfaction and retention while preserving collaboration opportunities through structured in-office days.\n\n---",
-            "answer": "Yes, there is a relationship. Both documents discuss the impact of remote work on collaboration, with Document A emphasizing limited remote work for better collaboration and productivity, while Document B supports moderate remote work with structured in-office days to preserve collaboration. The shared focus on collaboration links them."
+            "answer": "There is a relationship between the documents. Both discuss remote work policies and their impact on collaboration, though they differ in approach: Document A emphasizes limiting remote work for better collaboration, while Document B advocates moderate remote work with structured in-office days to maintain collaboration. No uncertainty."
         },
         {
             "grounded": true,
             "relevant": true,
             "retrieval_relevant": true,
             "correct": true,
-            "explanation": "1. Grounded: The answer correctly links Document A's claim about limited remote work improving collaboration/productivity with Document B's support for moderate remote work with structured in-office days (both focus on collaboration mechanisms). No hallucinated information is present. 2. Relevant: The answer directly addresses the query's core claim about remote work impacting collaboration. 3. Retrieval_relevant: The facts contain direct semantic overlap with the query (remote work, collaboration, structured in-office days). 4. Correctness: While the ground truth references Document 5 (not in provided facts), the answer's reasoning aligns with the stated relationship ('supports') by showing how both documents address collaboration through remote work structures. The answer's factual accuracy matches the ground truth's assertion about the relationship between remote work limitations and collaboration outcomes."
+            "explanation": "1. Grounded: The answer correctly references the factual claim in Document B about structured in-office days maintaining collaboration, which directly relates to the query's assertion about limiting remote work improving collaboration. While the answer doesn't explicitly mention productivity (a key point in the ground truth), it correctly identifies the core relationship between the documents regarding collaboration mechanisms. 2. Relevant: The answer directly addresses the query's focus on the relationship between remote work policies and collaboration, without introducing unrelated topics. 3. Retrieval Relevant: The facts from Document B contain semantic meaning (structured in-office days for collaboration) directly related to the query's focus on remote work's impact on collaboration. 4. Correct: The answer accurately identifies the relationship as 'supports' based on the shared focus on collaboration through structured remote work policies, even if it doesn't explicitly mention productivity. The ground truth's mention of productivity is a specific detail, but the answer's core conclusion about the relationship is factually correct."
         }
     ],
     [
         {
             "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
-            "document_chunk": "There are no major user interface changes planned for this release cycle.\n\nTimeline\nBeta testing will start in April 2025, followed by release candidate builds in May. Final deployment is expected in mid-June pending quality assurance approval.",
-            "answer": "Yes, a relationship exists. Both documents discuss the June 2025 release, with Document A emphasizing performance upgrades and Document B confirming no major UI changes, aligning with the focus on non-visual improvements. The timeline in Document B complements the release context in Document A."
+            "document_chunk": "",
+            "answer": "I don't know. No relevant documents were retrieved."
         },
         {
             "grounded": true,
             "relevant": true,
             "retrieval_relevant": true,
             "correct": true,
-            "explanation": "1. Grounded: The answer correctly references the FACTS' confirmation of 'no major user interface changes' (aligning with the query's focus on performance upgrades over visuals) and mentions the timeline as contextual support. No hallucinated information is present. 2. Relevant: The answer directly addresses the query's claim about the release focus by explicitly connecting Document A's performance emphasis with Document B's UI change confirmation. 3. Retrieval Relevant: The FACTS contain keywords ('no major user interface changes') and semantic meaning (release timeline) directly related to the query's topic of release focus. 4. Correctness: The answer accurately reflects the GROUND TRUTH's 'supports' relationship, correctly linking the documents' alignment on non-visual improvements and release context."
+            "explanation": "The answer correctly states that no relevant documents were retrieved (grounded in the empty FACTS section). It directly addresses the query (relevant) and there's no unrelated information. Since the FACTS are empty, retrieval_relevance is trivially satisfied. The answer is factually correct given the provided data, even though the ground truth suggests Document 6 exists. The evaluation must strictly follow the given input, not external assumptions about missing documents."
         }
     ],
     [
         {
             "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
-            "document_chunk": "Preservation Requirements\nWhen a legal investigation is initiated, all customer data relevant to the case must be preserved indefinitely, regardless of standard retention timelines.",
-            "answer": "Yes, a relationship exists. Both documents address legal investigations and their impact on data handling protocols. Document A's Query 6 mentions pausing data deletion during investigations, while Document B explicitly requires preserving customer data indefinitely in such cases."
+            "document_chunk": "",
+            "answer": "I don't know. No relevant documents were retrieved."
         },
         {
             "grounded": true,
             "relevant": true,
             "retrieval_relevant": true,
-            "correct": false,
-            "explanation": "The answer is grounded in the facts (both documents address legal investigations and data handling protocols). It is relevant to the query (Query 6 about pausing data deletion during investigations). The facts are semantically related to the query (legal investigations and data preservation). However, the answer's correctness is contradicted by the ground truth. The ground truth states the relationship 'contradicts' because it references Document 1 (not provided in the facts) allowing remote work. Since the answer is factually correct based on the provided facts but contradicts the ground truth's assertion, it fails the correctness criterion."
+            "correct": true,
+            "explanation": "The answer is grounded because it correctly states that no relevant documents were retrieved (FACTS are empty). It is relevant as it directly addresses the query about employee presence policies. Retrieval relevance is satisfied since there are no facts to contradict. The answer is factually correct because the empty FACTS set means no documents were found, which is an accurate statement. The ground truth's 'contradicts' claim appears to be based on an external document (Document 1) not included in the provided FACTS, making it irrelevant to this evaluation."
         }
     ]
 ]

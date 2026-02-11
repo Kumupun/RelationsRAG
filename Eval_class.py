@@ -20,6 +20,7 @@ def scores_result (results: list[EvalGrade]) -> dict[str, float, float]:
             else:
                 scores[metric] = (scores[metric][0], total, scores[metric][0] / total )
     return scores
+    
 eval_instructions = """
 You are a strict RAG evaluator.
 
