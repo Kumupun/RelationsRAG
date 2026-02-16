@@ -51,6 +51,7 @@ Evaluate:
 Return booleans.
 A value of True means that the ANSWER meets all of the criteria.
 A value of False means that the ANSWER does not meet all of the criteria.
+If the FACTS are empty or irrelevant, grounded and retrieval_relevant should be False but the other criteria can still be True if the ANSWER is relevant and correct based on the QUERY and GROUND TRUTH alone.
 
 Explain your reasoning in a step-by-step manner to ensure your reasoning and conclusion are correct. Avoid simply stating the correct answer at the outset.
 """

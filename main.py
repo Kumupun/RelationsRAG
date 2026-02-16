@@ -6,9 +6,8 @@ from langchain_ollama import ChatOllama, OllamaEmbeddings
 
 from RAG import RAG_similarity
 from Chunking import chunking
-from  Score_class import ThresholdTuner
-from Eval_class import evaluate, scores_result
-
+from Tuner_class import ThresholdTuner
+from Eval_class import evaluate
 
 import json
 import time
@@ -42,29 +41,32 @@ def json_output(results, filename):
 
 async def main():
     t0 = time.perf_counter()
-    tuner = ThresholdTuner(vectorstore, ground_truth, llm, parag_split2, evaluate, scores_result)
-    best_threshold, best_score = await tuner.tune()
 
-    print(f"Best threshold: {best_threshold:.4f} with score: {best_score:.2%}")
+    rag_process = [RAG_similarity(chunk.page_content, vectorstore, llm) for chunk in parag_split2]
+    rag_results = await asyncio.gather(*rag_process)
 
     t1 = time.perf_counter()
-    rag_process = [RAG_similarity(chunk.page_content, vectorstore, llm, best_threshold) for chunk in parag_split2]
-    rag_results = await asyncio.gather(*rag_process)
-    t2 = time.perf_counter()
-    
+
     results = []
     for chunk, truth in zip(rag_results, ground_truth):
-        eval =  evaluate(chunk, truth)
+        eval = evaluate(chunk, truth)
         results.append((chunk, eval))
-
+    
     json_output(results, "results.json")
     print("Evaluation completed. Results saved to results.json")
 
-    t3 = time.perf_counter()
+    t2 = time.perf_counter()
+    print(f"RAG processing completed in {t1 - t0:.2f} seconds.")
+    print(f"Evaluation completed in {t2 - t1:.2f} seconds.")
 
-    print(f"Tuning completed in {t1 - t0:.2f} seconds.")
-    print(f"RAG processing completed in {t2 - t1:.2f} seconds.")
-    print(f"Evaluation completed in {t3 - t2:.2f} seconds.")
+    tuner = ThresholdTuner(ground_truth, rag_results, evaluate)
+    best_threshold, best_score = tuner.tune()
+
+    print(f"Best threshold: {best_threshold:.4f} with score: {best_score:.2%}")
+
+    t3 = time.perf_counter()
+    
+    print(f"Tuning completed in {t3 - t2:.2f} seconds.")
     print(f"Total pipeline time: {t3 - t0:.2f} seconds.")
     return 
 
@@ -72,7 +74,4 @@ if __name__ == "__main__":
     start = time.perf_counter()
     asyncio.run(main())
     end = time.perf_counter()
-
-    
-
 
