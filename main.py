@@ -4,7 +4,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 
-from RAG import RAG_similarity
+from RAG import RAG_similarity_sync
 from Chunking import chunking
 from Tuner_class import ThresholdTuner
 from Eval_class import evaluate
@@ -39,11 +39,11 @@ def json_output(results, filename):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
-async def main():
+def main():
     t0 = time.perf_counter()
-
-    rag_process = [RAG_similarity(chunk.page_content, vectorstore, llm) for chunk in parag_split2]
-    rag_results = await asyncio.gather(*rag_process)
+    k=5
+    rag_results = RAG_similarity_sync(parag_split2, vectorstore, llm, k)
+    print(f"Sample number {k} retrieved for each query chunk.")
 
     t1 = time.perf_counter()
 
@@ -71,7 +71,5 @@ async def main():
     return 
 
 if __name__ == "__main__":
-    start = time.perf_counter()
-    asyncio.run(main())
-    end = time.perf_counter()
+    main()
 

@@ -1,12 +1,13 @@
 from langchain_ollama import ChatOllama
 from langchain_community.vectorstores import FAISS
 
+def RAG_similarity_sync(parag2,vectorstore , llm, num):
+    results = []
+    for chunk in parag2:
+        matches = vectorstore.similarity_search_with_relevance_scores(chunk.page_content, k=num)
+        for top_match,score in matches:
 
-async def RAG_similarity(query_chunk: str, vectorstore: FAISS, llm: ChatOllama) -> dict:
-    matches = await vectorstore.asimilarity_search_with_relevance_scores(query_chunk, k=3)
-    top_match,score = matches[0]
-
-    prompt = f"""You are a helpful assistant who is good at analyzing source information and finding relationships between documents.
+            prompt = f"""You are a helpful assistant who is good at analyzing source information and finding relationships between documents.
 
 Use the following source documents to determine if there is any relationship between them.
 If you don't know the answer, just say that you don't know.
@@ -18,17 +19,17 @@ Second sentence: explain why, citing shared concepts.
 Third sentence (optional): mention uncertainty if any.
 
 Document A:
-{query_chunk}
+{chunk.page_content}
 
 Document B:
 {top_match.page_content}
 """
 
-    response = await llm.ainvoke(prompt)
-
-    return {
-        "query_chunk": query_chunk,
-        "document_chunk": top_match.page_content,
-        "answer": response.content,
-        "score": float(score)
-    }
+            response = llm.invoke(prompt)
+            results.append({
+                "query_chunk": chunk.page_content,
+                "document_chunk": top_match.page_content,
+                "answer": response.content,
+                "score": float(score)
+            })
+    return results

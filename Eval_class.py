@@ -6,7 +6,6 @@ class EvalGrade(TypedDict):
     relevant: Annotated[bool, ..., "True if answer is relevant to query"]
     retrieval_relevant: Annotated[bool, ..., "True if retrieved facts are relevant"]
     correct: Annotated[bool, ..., "True if answer is factually correct"]
-    explanation: Annotated[str, ..., "Explain your reasoning for each criterion with a list 1. grounded, 2. relevant, 3. retrieval_relevant, 4. correct"]
 
 def scores_result (results: list[EvalGrade]) -> dict[str, float, float]:
     total = len(results)
@@ -22,9 +21,7 @@ def scores_result (results: list[EvalGrade]) -> dict[str, float, float]:
     return scores
     
 eval_instructions = """
-You are a strict RAG evaluator.
-
-You will be given:
+You are a strict RAG evaluator. Do not give any explanations or justifications. 
 
 QUERY: chunk from Document A
 FACTS: retrieved chunks from Document B
@@ -52,8 +49,6 @@ Return booleans.
 A value of True means that the ANSWER meets all of the criteria.
 A value of False means that the ANSWER does not meet all of the criteria.
 If the FACTS are empty or irrelevant, grounded and retrieval_relevant should be False but the other criteria can still be True if the ANSWER is relevant and correct based on the QUERY and GROUND TRUTH alone.
-
-Explain your reasoning in a step-by-step manner to ensure your reasoning and conclusion are correct. Avoid simply stating the correct answer at the outset.
 """
 eval_llm = ChatOllama(
     model="qwen3:8b",
