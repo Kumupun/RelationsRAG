@@ -1,0 +1,3152 @@
+[
+    [
+        {
+            "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
+            "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
+            "answer": "Yes, a relationship exists. Both documents emphasize the DASH diet as a mandatory first step in managing hypertension through lifestyle changes. They share the concept of using dietary modifications alongside exercise as initial interventions.",
+            "score": 0.5061941742897034
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
+            "document_chunk": "DOCUMENT 1\nTitle: Hypertension Management Protocol\nDepartment: Cardiology\nEffective Date: January 2026\nOverview: This protocol outlines the primary treatment path for Stage 1 hypertension (130-139/80-89 mmHg).",
+            "answer": "A relationship exists between the documents. Both address Stage 1 hypertension treatment, with Document A emphasizing lifestyle changes (like DASH diet) as the first step, aligning with Document B's protocol for initial management. However, Document B's specifics are not fully detailed in the provided excerpt, so the connection remains inferred.",
+            "score": 0.49133455753326416
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
+            "document_chunk": "Policy Details:\nIf blood pressure remains elevated after 3 months, initiate low-dose ACE inhibitors or Calcium Channel Blockers. \nPatients should perform home blood pressure monitoring twice daily (morning and evening) and log results.",
+            "answer": "A relationship exists between the documents. Both discuss hypertension management, with Document A focusing on lifestyle changes (DASH diet) as initial treatment and Document B addressing medication initiation if lifestyle measures fail. The documents are sequential steps in a treatment protocol for Stage 1 hypertension.",
+            "score": 0.316753625869751
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
+            "document_chunk": "Screening Exceptions:\nRoutine fasting lipid panels and glucose checks are mandatory during these biennial visits. \nPatients with pre-existing chronic conditions (e.g., Diabetes, Asthma) are exempt from this timeline and must be seen at least every 6 months.",
+            "answer": "No relationship exists between the documents.  \nBoth discuss mandatory medical protocols but address different conditions (hypertension vs. chronic disease screenings) and distinct procedures (dietary steps vs. lab tests).  \nUncertainty: The documents do not overlap in specific conditions or actions.",
+            "score": 0.30557888746261597
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
+            "document_chunk": "Safety Restrictions:\nThe standard dose is 10mg/kg every 6 to 8 hours, not to exceed 4 doses in 24 hours. \nDo not administer ibuprofen to infants under 6 months old or those with suspected dehydration due to risk of kidney injury.",
+            "answer": "No relationship exists between the documents.  \nDocument A discusses lifestyle interventions for hypertension, while Document B addresses medication safety guidelines for ibuprofen, covering unrelated health topics.  \nNo shared concepts or contextual links are present.",
+            "score": 0.1381024718284607
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
+            "document_chunk": "DOCUMENT 2\nTitle: Pediatric Fever and Ibuprofen Safety\nDepartment: Pediatrics\nRevision: 4.0\nDosage Standards: Ibuprofen may be administered to infants older than 6 months for fever reduction.",
+            "answer": "A relationship exists between the documents. Both discuss ibuprofen use in infants for fever, but Document B specifies a 6-month minimum age, conflicting with Document A's 4-month-old case. Uncertainty remains about the safety implications of the discrepancy.",
+            "score": 0.6925143003463745
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
+            "document_chunk": "Safety Restrictions:\nThe standard dose is 10mg/kg every 6 to 8 hours, not to exceed 4 doses in 24 hours. \nDo not administer ibuprofen to infants under 6 months old or those with suspected dehydration due to risk of kidney injury.",
+            "answer": "A relationship exists between the documents. Both discuss ibuprofen use in infants, but Document B explicitly prohibits it for infants under 6 months, conflicting with Document A's claim of safety for a 4-month-old. The contradiction arises from differing age restrictions.",
+            "score": 0.6345783472061157
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
+            "document_chunk": "Policy Details:\nIf blood pressure remains elevated after 3 months, initiate low-dose ACE inhibitors or Calcium Channel Blockers. \nPatients should perform home blood pressure monitoring twice daily (morning and evening) and log results.",
+            "answer": "No relationship exists between the documents.  \nThey address distinct medical scenarios: Document A concerns infant fever management with ibuprofen, while Document B focuses on hypertension treatment with ACE inhibitors and blood pressure monitoring.  \nNo shared concepts or contexts link the two.",
+            "score": 0.23271703720092773
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
+            "document_chunk": "DOCUMENT 4\nTitle: Emergency Triage: Acute Respiratory Distress\nDepartment: Emergency Medicine\nStatus: High Priority\nImmediate Action: If a patient presents with a pulse oximetry reading below 92%, immediate supplemental oxygen must be administered regardless of prior history.",
+            "answer": "No relationship exists between the documents.  \nDocument A addresses fever management in infants, while Document B focuses on respiratory distress triage, lacking shared concepts or procedures.  \nNo uncertainty noted.",
+            "score": 0.21380573511123657
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
+            "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
+            "answer": "No relationship exists between the documents.  \nThey address distinct topics: Document A focuses on infant medication for fever, while Document B discusses lifestyle interventions for general health.  \nNo shared concepts or contextual links are evident.",
+            "score": 0.1766427755355835
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
+            "document_chunk": "DOCUMENT 3\nTitle: Annual Physical and Preventative Screening\nDepartment: General Medicine\nPolicy Year: 2026\nGeneral Screening: Healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.",
+            "answer": "A relationship exists between the documents. Both discuss physical exams for healthy adults, sharing concepts like annual check-ups and target demographics (ages 18–45 vs. 30-year-olds). The discrepancy in recommended frequency (annual vs. every two years) introduces uncertainty about their alignment.",
+            "score": 0.6562052369117737
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
+            "document_chunk": "Screening Exceptions:\nRoutine fasting lipid panels and glucose checks are mandatory during these biennial visits. \nPatients with pre-existing chronic conditions (e.g., Diabetes, Asthma) are exempt from this timeline and must be seen at least every 6 months.",
+            "answer": "A relationship exists between the documents.  \nBoth discuss medical screening frequencies, with Document A focusing on annual exams for healthy individuals and Document B specifying biennial visits for certain screenings and exemptions for chronic conditions.  \nNo direct citation or overlap in specific details is present.",
+            "score": 0.32101374864578247
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
+            "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
+            "answer": "No direct relationship. Both documents address health management but focus on different aspects: annual physical exams versus lifestyle interventions. Uncertainty exists about their integration into a single protocol.",
+            "score": 0.31590694189071655
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
+            "document_chunk": "DOCUMENT 4\nTitle: Emergency Triage: Acute Respiratory Distress\nDepartment: Emergency Medicine\nStatus: High Priority\nImmediate Action: If a patient presents with a pulse oximetry reading below 92%, immediate supplemental oxygen must be administered regardless of prior history.",
+            "answer": "No relationship exists between the documents.  \nThey address distinct medical scenarios: Document A focuses on routine annual physicals for a healthy individual, while Document B outlines emergency triage protocols for acute respiratory distress.  \nNo shared concepts or contextual links are evident.",
+            "score": 0.27310484647750854
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
+            "document_chunk": "Expense Rules:\nRequests must be submitted via the internal portal at least 30 days prior to the event date. \nThe fund cannot be used for travel, lodging, or meal expenses, which must be filed under the standard Travel & Expense policy.",
+            "answer": "No relationship exists between the documents.  \nDocument A focuses on healthcare requirements for a physical exam, while Document B outlines financial expense rules, with no shared concepts or context.  \nNo uncertainty applies.",
+            "score": 0.17752563953399658
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
+            "document_chunk": "DOCUMENT 4\nTitle: Emergency Triage: Acute Respiratory Distress\nDepartment: Emergency Medicine\nStatus: High Priority\nImmediate Action: If a patient presents with a pulse oximetry reading below 92%, immediate supplemental oxygen must be administered regardless of prior history.",
+            "answer": "Yes, a relationship exists. Both documents share the concept of immediate oxygen administration when oxygen saturation drops below 92%, reflecting aligned emergency protocols. No uncertainty is present.",
+            "score": 0.6585861444473267
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": true,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
+            "document_chunk": "Safety Restrictions:\nThe standard dose is 10mg/kg every 6 to 8 hours, not to exceed 4 doses in 24 hours. \nDo not administer ibuprofen to infants under 6 months old or those with suspected dehydration due to risk of kidney injury.",
+            "answer": "No relationship exists between the documents.  \nThey address distinct medical interventions: Document A focuses on oxygen administration for hypoxia, while Document B outlines ibuprofen dosage restrictions.  \nNo shared concepts or contextual links are present.",
+            "score": 0.25542497634887695
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
+            "document_chunk": "Emergency Override:\nStandard \"wait and see\" approaches for mild asthma are suspended if the patient exhibits \"silent chest\" or accessory muscle use. \nVital signs must be recorded every 5 minutes until the patient is stabilized or transferred to the ICU.",
+            "answer": "Yes, there is a relationship. Both documents discuss emergency protocols that bypass standard procedures, focusing on immediate interventions for critical patient conditions. The specific triggers (oxygen saturation vs. asthma symptoms) differ, so the relationship is limited to the general context of emergency overrides.",
+            "score": 0.25174880027770996
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
+            "document_chunk": "DOCUMENT 1\nTitle: Hypertension Management Protocol\nDepartment: Cardiology\nEffective Date: January 2026\nOverview: This protocol outlines the primary treatment path for Stage 1 hypertension (130-139/80-89 mmHg).",
+            "answer": "No relationship exists between the documents.  \nDocument A focuses on oxygen saturation and emergency protocols, while Document B addresses hypertension management, covering distinct medical conditions and protocols.  \nNo shared concepts or contextual links are evident.",
+            "score": 0.22910010814666748
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
+            "document_chunk": "DOCUMENT 2\nTitle: Pediatric Fever and Ibuprofen Safety\nDepartment: Pediatrics\nRevision: 4.0\nDosage Standards: Ibuprofen may be administered to infants older than 6 months for fever reduction.",
+            "answer": "No relationship exists between the documents.  \nThey address distinct medical scenarios: Document A focuses on oxygen protocols for low saturation, while Document B discusses ibuprofen dosing for pediatric fever.  \nNo shared concepts or contextual links are present.",
+            "score": 0.2174382209777832
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
+            "document_chunk": "Screening Exceptions:\nRoutine fasting lipid panels and glucose checks are mandatory during these biennial visits. \nPatients with pre-existing chronic conditions (e.g., Diabetes, Asthma) are exempt from this timeline and must be seen at least every 6 months.",
+            "answer": "There is a conflicting relationship between the documents. Both discuss biennial check-up schedules for Diabetes patients, but Document A advocates for standard biennial visits, while Document B exempts chronic patients from this timeline, requiring more frequent visits. The contradiction arises from differing recommendations on schedule frequency.",
+            "score": 0.5371785163879395
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
+            "document_chunk": "DOCUMENT 3\nTitle: Annual Physical and Preventative Screening\nDepartment: General Medicine\nPolicy Year: 2026\nGeneral Screening: Healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.",
+            "answer": "A relationship exists between the documents.  \nBoth discuss biennial check-up schedules, with Document B establishing the standard for healthy adults and Document A questioning if this applies to chronic illness patients.  \nNo uncertainty; the connection is clear through shared concepts.",
+            "score": 0.44174087047576904
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
+            "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
+            "answer": "No direct relationship exists between the documents.  \nBoth address patient care for chronic illnesses but focus on distinct interventions: Document A emphasizes check-up schedules, while Document B outlines lifestyle modifications.  \nUncertainty remains about explicit connections since they do not reference each other directly.",
+            "score": 0.34078526496887207
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
+            "document_chunk": "Emergency Override:\nStandard \"wait and see\" approaches for mild asthma are suspended if the patient exhibits \"silent chest\" or accessory muscle use. \nVital signs must be recorded every 5 minutes until the patient is stabilized or transferred to the ICU.",
+            "answer": "No relationship exists between the documents.  \nDocument A focuses on chronic illness management and preventive care schedules, while Document B addresses acute asthma emergency protocols.  \nThey share no common concepts or contexts.",
+            "score": 0.20590752363204956
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
+            "document_chunk": "Policy Details:\nIf blood pressure remains elevated after 3 months, initiate low-dose ACE inhibitors or Calcium Channel Blockers. \nPatients should perform home blood pressure monitoring twice daily (morning and evening) and log results.",
+            "answer": "No relationship exists between the documents.  \nBoth discuss chronic illness management, but Document A focuses on check-up schedules for diabetes, while Document B addresses blood pressure monitoring and medication protocols.  \nUncertainty: The connection is indirect and speculative.",
+            "score": 0.2053166627883911
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
+            "document_chunk": "DOCUMENT 7\nTitle: Employee Professional Development Fund\nDepartment: Talent & Culture\nEffective: Fiscal Year 2026\nAnnual Stipend: Each full-time employee is eligible for a $2,500 annual stipend for certifications, conferences, or tuition reimbursement.",
+            "answer": "A relationship exists between Document A and Document B.  \nBoth discuss the $2,500 stipend for professional development, with Document A specifying its use for conference-related hotel stays, which aligns with Document B’s broader allowance for conferences.  \nNo uncertainty is present.",
+            "score": 0.5162829756736755
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
+            "document_chunk": "Expense Rules:\nRequests must be submitted via the internal portal at least 30 days prior to the event date. \nThe fund cannot be used for travel, lodging, or meal expenses, which must be filed under the standard Travel & Expense policy.",
+            "answer": "There is a relationship between the documents. Both address expenses for conferences, but Document A allows hotel stays under a stipend, while Document B explicitly prohibits lodging expenses under a different fund. Uncertainty exists if the stipend and the fund in Document B are separate or conflicting policies.",
+            "score": 0.2628515958786011
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
+            "document_chunk": "Auth Protocols:\nMandatory password changes are required every 90 days for all administrative accounts. \nMulti-Factor Authentication (MFA) is strictly required for all remote logins and access to sensitive financial databases.",
+            "answer": "No relationship exists between the documents.  \nDocument A focuses on employee stipends for professional development, while Document B addresses authentication protocols and security measures.  \nNo shared concepts or contextual links are evident.",
+            "score": 0.13395369052886963
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
+            "document_chunk": "DOCUMENT 3\nTitle: Annual Physical and Preventative Screening\nDepartment: General Medicine\nPolicy Year: 2026\nGeneral Screening: Healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.",
+            "answer": "No relationship exists between the documents.  \nThey address distinct topics: Document A concerns employee stipends for conferences, while Document B outlines healthcare screening policies.  \nNo shared concepts or contextual links are present.",
+            "score": 0.09482777118682861
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
+            "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
+            "answer": "No relationship exists between the documents.  \nThey address entirely distinct contexts: Document A focuses on professional development stipends for employees, while Document B discusses lifestyle interventions for health.  \nNo shared concepts or thematic connections are present.",
+            "score": 0.0761793851852417
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
+            "document_chunk": "Auth Protocols:\nMandatory password changes are required every 90 days for all administrative accounts. \nMulti-Factor Authentication (MFA) is strictly required for all remote logins and access to sensitive financial databases.",
+            "answer": "Yes, there is a relationship. Both documents address mandatory password change policies, with Document A specifying \"every three months\" (90 days) and Document B explicitly stating \"every 90 days\" for administrative accounts. The shared concept of periodic password updates links them.",
+            "score": 0.6189091205596924
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
+            "document_chunk": "Policy Details:\nIf blood pressure remains elevated after 3 months, initiate low-dose ACE inhibitors or Calcium Channel Blockers. \nPatients should perform home blood pressure monitoring twice daily (morning and evening) and log results.",
+            "answer": "No relationship exists between the documents. Both mention a three-month timeframe, but Document A relates to IT security policies, while Document B addresses medical treatment protocols for hypertension, with no overlapping concepts or context.",
+            "score": 0.22579419612884521
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
+            "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
+            "answer": "No relationship exists between the documents. Both mention a three-month timeframe, but Document A focuses on security protocols for IT systems, while Document B addresses health interventions for patients. The shared concept of a three-month period does not imply a direct connection in purpose or context.",
+            "score": 0.18041425943374634
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
+            "document_chunk": "DOCUMENT 3\nTitle: Annual Physical and Preventative Screening\nDepartment: General Medicine\nPolicy Year: 2026\nGeneral Screening: Healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.",
+            "answer": "No relationship exists between the documents.  \nBoth discuss periodic maintenance (password updates vs. physical exams) but pertain to distinct domains (IT security vs. medical health) with no overlapping policies or departments.  \nUncertainty: The shared concept of intervals is superficial and does not imply a substantive connection.",
+            "score": 0.17726218700408936
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
+            "document_chunk": "DOCUMENT 8\nTitle: Password and Authentication Standard\nDepartment: Information Security\nVersion: 4.2\nPassword Complexity: Passwords must be at least 16 characters long and include a mix of uppercase, lowercase, numbers, and symbols.",
+            "answer": "Yes, a relationship exists. Both documents address password security policies, with Document A focusing on update frequency and Document B on complexity requirements. They are part of broader information security standards.",
+            "score": 0.14020222425460815
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
+            "document_chunk": "DOCUMENT 9\nTitle: Regional Shipping and Logistics\nDepartment: Supply Chain\nRevision Date: February 2026\nStandard Delivery: Domestic orders are shipped via ground transport with an expected delivery window of 5–7 business days.",
+            "answer": "There is a relationship between the documents. Both discuss standard ground shipping, with Document A linking it to a purchase threshold and Document B describing its logistics. The connection lies in the shared concept of standard ground shipping, though they address different aspects (eligibility vs. logistics).",
+            "score": 0.34607505798339844
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
+            "document_chunk": "Shipping Constraints:\nAny shipment containing lithium-ion batteries must be labeled \"Class 9 Miscellaneous\" and is ineligible for air transport.",
+            "answer": "No relationship exists between the documents.  \nThey both involve shipping, but Document A focuses on free ground shipping for purchases, while Document B addresses lithium-ion battery shipping regulations, with no shared concepts.  \nNo uncertainty.",
+            "score": 0.20177388191223145
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
+            "document_chunk": "DOCUMENT 7\nTitle: Employee Professional Development Fund\nDepartment: Talent & Culture\nEffective: Fiscal Year 2026\nAnnual Stipend: Each full-time employee is eligible for a $2,500 annual stipend for certifications, conferences, or tuition reimbursement.",
+            "answer": "No relationship exists between the documents.  \nBoth discuss eligibility criteria for benefits, but Document A focuses on customer spending thresholds for shipping, while Document B addresses employee stipends for education.  \nUncertainty: The contexts (customer vs. employee) and benefit types (shipping vs. stipend) differ significantly.",
+            "score": 0.0870661735534668
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
+            "document_chunk": "DOCUMENT 4\nTitle: Emergency Triage: Acute Respiratory Distress\nDepartment: Emergency Medicine\nStatus: High Priority\nImmediate Action: If a patient presents with a pulse oximetry reading below 92%, immediate supplemental oxygen must be administered regardless of prior history.",
+            "answer": "No relationship exists between the documents.  \nThey address entirely distinct topics: Document A concerns customer spending and shipping policies, while Document B relates to medical triage protocols.  \nNo shared concepts or contextual links are present.",
+            "score": 0.059470176696777344
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
+            "document_chunk": "DOCUMENT 8\nTitle: Password and Authentication Standard\nDepartment: Information Security\nVersion: 4.2\nPassword Complexity: Passwords must be at least 16 characters long and include a mix of uppercase, lowercase, numbers, and symbols.",
+            "answer": "No relationship exists between the documents.  \nThey address entirely different topics: Document A focuses on customer spending and shipping eligibility, while Document B outlines password complexity requirements.  \nNo shared concepts or contextual links are present.",
+            "score": 0.05448472499847412
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
+            "document_chunk": "Auth Protocols:\nMandatory password changes are required every 90 days for all administrative accounts. \nMulti-Factor Authentication (MFA) is strictly required for all remote logins and access to sensitive financial databases.",
+            "answer": "Yes, a relationship exists. Both documents address security protocols for remote access, with Document B specifying Multi-Factor Authentication (MFA) as the additional layer mentioned in Document A. Document B also includes password policies, which complement the 16-character password requirement in Document A.",
+            "score": 0.4609171152114868
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
+            "document_chunk": "DOCUMENT 8\nTitle: Password and Authentication Standard\nDepartment: Information Security\nVersion: 4.2\nPassword Complexity: Passwords must be at least 16 characters long and include a mix of uppercase, lowercase, numbers, and symbols.",
+            "answer": "A relationship exists between the documents. Both discuss password security, with Document A referencing the 16-character password requirement from Document B and adding an additional security layer. Document A builds upon Document B's standard by emphasizing further measures beyond password complexity.",
+            "score": 0.21326696872711182
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
+            "document_chunk": "Expense Rules:\nRequests must be submitted via the internal portal at least 30 days prior to the event date. \nThe fund cannot be used for travel, lodging, or meal expenses, which must be filed under the standard Travel & Expense policy.",
+            "answer": "No relationship exists between the documents.  \nDocument A focuses on security protocols for remote access, while Document B outlines expense submission rules, covering unrelated policies.  \nNo shared concepts or contextual links are evident.",
+            "score": 0.10777145624160767
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
+            "document_chunk": "DOCUMENT 7\nTitle: Employee Professional Development Fund\nDepartment: Talent & Culture\nEffective: Fiscal Year 2026\nAnnual Stipend: Each full-time employee is eligible for a $2,500 annual stipend for certifications, conferences, or tuition reimbursement.",
+            "answer": "No relationship exists between the documents.  \nDocument A focuses on security protocols for remote access, while Document B addresses employee development funds for certifications and education, with no shared concepts.  \nUncertainty remains if the stipend in Document B could indirectly relate to security certifications, but this is speculative.",
+            "score": 0.09195709228515625
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
+            "document_chunk": "Shipping Constraints:\nAny shipment containing lithium-ion batteries must be labeled \"Class 9 Miscellaneous\" and is ineligible for air transport.",
+            "answer": "No relationship exists between the documents.  \nThey address distinct regulatory domains: Document A focuses on cybersecurity for remote access, while Document B outlines shipping constraints for hazardous materials.  \nNo shared concepts or contextual links are evident.",
+            "score": 0.07782793045043945
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ]
+]

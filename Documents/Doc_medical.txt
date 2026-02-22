@@ -1,0 +1,69 @@
+DOCUMENT 1
+Title: Hypertension Management Protocol
+Department: Cardiology
+Effective Date: January 2026
+Overview: This protocol outlines the primary treatment path for Stage 1 hypertension (130-139/80-89 mmHg).
+Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.
+
+Policy Details:
+If blood pressure remains elevated after 3 months, initiate low-dose ACE inhibitors or Calcium Channel Blockers. 
+Patients should perform home blood pressure monitoring twice daily (morning and evening) and log results.
+
+DOCUMENT 2
+Title: Pediatric Fever and Ibuprofen Safety
+Department: Pediatrics
+Revision: 4.0
+Dosage Standards: Ibuprofen may be administered to infants older than 6 months for fever reduction.
+
+Safety Restrictions:
+The standard dose is 10mg/kg every 6 to 8 hours, not to exceed 4 doses in 24 hours. 
+Do not administer ibuprofen to infants under 6 months old or those with suspected dehydration due to risk of kidney injury.
+
+DOCUMENT 3
+Title: Annual Physical and Preventative Screening
+Department: General Medicine
+Policy Year: 2026
+General Screening: Healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.
+
+Screening Exceptions:
+Routine fasting lipid panels and glucose checks are mandatory during these biennial visits. 
+Patients with pre-existing chronic conditions (e.g., Diabetes, Asthma) are exempt from this timeline and must be seen at least every 6 months.
+
+DOCUMENT 4
+Title: Emergency Triage: Acute Respiratory Distress
+Department: Emergency Medicine
+Status: High Priority
+Immediate Action: If a patient presents with a pulse oximetry reading below 92%, immediate supplemental oxygen must be administered regardless of prior history.
+
+Emergency Override:
+Standard "wait and see" approaches for mild asthma are suspended if the patient exhibits "silent chest" or accessory muscle use. 
+Vital signs must be recorded every 5 minutes until the patient is stabilized or transferred to the ICU.
+
+DOCUMENT 7
+Title: Employee Professional Development Fund
+Department: Talent & Culture
+Effective: Fiscal Year 2026
+Annual Stipend: Each full-time employee is eligible for a $2,500 annual stipend for certifications, conferences, or tuition reimbursement.
+
+Expense Rules:
+Requests must be submitted via the internal portal at least 30 days prior to the event date. 
+The fund cannot be used for travel, lodging, or meal expenses, which must be filed under the standard Travel & Expense policy.
+
+DOCUMENT 8
+Title: Password and Authentication Standard
+Department: Information Security
+Version: 4.2
+Password Complexity: Passwords must be at least 16 characters long and include a mix of uppercase, lowercase, numbers, and symbols.
+
+Auth Protocols:
+Mandatory password changes are required every 90 days for all administrative accounts. 
+Multi-Factor Authentication (MFA) is strictly required for all remote logins and access to sensitive financial databases.
+
+DOCUMENT 9
+Title: Regional Shipping and Logistics
+Department: Supply Chain
+Revision Date: February 2026
+Standard Delivery: Domestic orders are shipped via ground transport with an expected delivery window of 5–7 business days.
+
+Shipping Constraints:
+Any shipment containing lithium-ion batteries must be labeled "Class 9 Miscellaneous" and is ineligible for air transport.

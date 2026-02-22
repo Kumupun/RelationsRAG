@@ -1,0 +1,17 @@
+QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.
+
+QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.
+
+QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.
+
+QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.
+
+QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.
+
+QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.
+
+QUERY 8: For security reasons, IT administrators must update their system passwords every three months.
+
+QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.
+
+QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.

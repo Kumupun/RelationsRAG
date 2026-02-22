@@ -46,12 +46,11 @@ Evaluate:
 (2) It is OK if the ANSWER is not directly grounded in the FACTS as long as it is factually correct.
 
 Return booleans.
-A value of True means that the ANSWER meets all of the criteria.
-A value of False means that the ANSWER does not meet all of the criteria.
+A value of True means that the ANSWER meets all of the criteria, otherwise False.
 If the FACTS are empty or irrelevant, grounded and retrieval_relevant should be False but the other criteria can still be True if the ANSWER is relevant and correct based on the QUERY and GROUND TRUTH alone.
 """
 eval_llm = ChatOllama(
-    model="qwen3:8b",
+    model="llama3.1:8b",
     temperature=0
 ).with_structured_output(
     EvalGrade,

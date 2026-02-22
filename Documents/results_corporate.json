@@ -1,0 +1,2302 @@
+[
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "Impact Assessment\nInternal modeling indicates that allowing employees to work remotely several days per week could reduce commuting-related emissions by approximately 12 percent annually.\n\nThe sustainability office will publish quarterly progress reports and adjust strategies as necessary.\n\n---",
+            "answer": "A relationship exists between the documents.  \nBoth discuss remote work's impact on commuting and sustainability, with Document B providing quantitative support for Document A's claim.  \nNo uncertainty; the connection is clear through shared concepts.",
+            "score": 0.7156625986099243
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "Key Initiatives\nOne major contributor to emissions is employee commuting. To address this, the company actively encourages remote and hybrid work arrangements wherever operationally feasible.",
+            "answer": "Yes, a relationship exists. Both documents connect remote work to reduced commuting and sustainability goals. Document A highlights the direct sustainability benefit, while Document B explains the broader initiative to cut emissions via remote/hybrid work.",
+            "score": 0.6663653254508972
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "Rationale\nLeadership believes that moderate remote work improves job satisfaction and retention while preserving collaboration opportunities through structured in-office days.\n\n---",
+            "answer": "A relationship exists between the documents.  \nBoth discuss benefits of remote work, with Document A focusing on sustainability and commuting, while Document B highlights job satisfaction and retention.  \nNo direct overlap in specific claims, but shared concepts about remote work's advantages.",
+            "score": 0.5656962394714355
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "Policy Details\nBeginning March 2025, all full-time employees may work remotely up to three days per week. Each department may choose which days are most appropriate for remote work based on project needs and client commitments.",
+            "answer": "There is a relationship between the documents. Both discuss remote work policies, with Document A linking remote work to sustainability and Document B outlining a specific remote work policy. The connection is inferred through shared concepts like remote work implementation and its potential environmental impact.",
+            "score": 0.5091493129730225
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "All teams are encouraged to increase their on-site presence to foster creativity and faster decision-making. Management guidance suggests that remote work should be minimized wherever possible to improve productivity and team cohesion.",
+            "answer": "There is a relationship between the documents. Both discuss remote work's impact, with Document A highlighting sustainability benefits and Document B emphasizing productivity and team cohesion through on-site presence. The conflict in priorities (sustainability vs. productivity) creates a contrasting perspective on remote work's role.",
+            "score": 0.48043107986450195
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "DOCUMENT 1\nTitle: Hybrid and Remote Work Policy\nDepartment: Human Resources\nEffective Date: March 1, 2025\n\nOverview\nThe company is introducing a hybrid work model to improve employee wellbeing while maintaining operational efficiency.",
+            "answer": "A relationship exists between the documents. Both discuss work models (remote/hybrid) and their benefits, such as sustainability (Document A) and employee wellbeing/operational efficiency (Document B). The connection is indirect, as sustainability and operational efficiency are not explicitly linked in the documents.",
+            "score": 0.3624448776245117
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "Additional measures include upgrading office lighting to energy-efficient systems, deploying smart climate controls, and transitioning company vehicles to electric alternatives.",
+            "answer": "Yes, there is a relationship. Both documents discuss company sustainability initiatives, with Document A focusing on remote work to reduce commuting and Document B detailing energy-efficient infrastructure upgrades. They share the common goal of enhancing corporate environmental responsibility through different strategies.",
+            "score": 0.32848572731018066
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "Managers are responsible for ensuring productivity levels remain consistent regardless of work location. Performance evaluations will continue to be based on outcomes rather than physical presence.",
+            "answer": "No direct relationship exists between the documents. Both discuss remote work policies, but Document A focuses on sustainability and commuting, while Document B addresses productivity and evaluation metrics. The shared concept of remote work does not establish a direct connection between their specific claims.",
+            "score": 0.2981610894203186
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "Despite this flexibility, in-person attendance is mandatory on Mondays to support cross-team alignment, planning sessions, and company-wide meetings.",
+            "answer": "A relationship exists between the documents. Both discuss work arrangements and company policies, with Document A focusing on remote work's sustainability benefits and Document B addressing mandatory in-person attendance for team alignment. The connection lies in their shared context of balancing flexibility and structured collaboration.",
+            "score": 0.28148871660232544
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 1\nAllowing employees to work remotely reduces commuting and directly supports company sustainability objectives.",
+            "document_chunk": "Strategic Direction\nLeadership aims to strengthen in-person collaboration by increasing shared workspaces, meeting rooms, and innovation hubs.",
+            "answer": "No direct relationship exists between the documents. Document A emphasizes remote work for sustainability, while Document B prioritizes in-person collaboration through physical spaces, highlighting opposing workplace strategies. The documents do not explicitly connect or reconcile these approaches.",
+            "score": 0.2808581590652466
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "Retention Rules\nAll customer personal data must be retained for exactly five years from the date of last interaction. After this period expires, the data must be permanently deleted from all production systems, backups, and archives.",
+            "answer": "A relationship exists between the documents. Both outline a five-year retention period followed by permanent deletion of customer data, sharing the core concept of time-based data retention and deletion. However, they differ in the specific timing reference (collection date vs. last interaction date), which may affect implementation.",
+            "score": 0.7444877028465271
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "---\n\nDOCUMENT 3\nTitle: Customer Data Retention and Deletion Policy\nDepartment: Legal and Compliance\nVersion: 2.1\n\nPurpose\nThis policy defines how long customer personal data may be stored and outlines mandatory deletion procedures.",
+            "answer": "A relationship exists between Document A and Document B. Both address customer data retention and deletion policies, with Document A specifying a five-year retention period and Document B outlining general retention and deletion procedures. Uncertainty remains about whether Document B explicitly includes the five-year rule from Document A.",
+            "score": 0.6875910758972168
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "Preservation Requirements\nWhen a legal investigation is initiated, all customer data relevant to the case must be preserved indefinitely, regardless of standard retention timelines.",
+            "answer": "There is a relationship between the documents. Both address data retention policies, but Document B creates an exception to Document A's five-year deletion rule by requiring indefinite preservation during legal investigations. The conflict arises from overlapping yet contradictory requirements.",
+            "score": 0.507621169090271
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "During such periods, routine deletion policies are suspended until Legal Affairs formally declares the investigation closed.",
+            "answer": "Yes, they are related because both discuss data deletion policies, with Document B potentially overriding Document A's five-year rule during investigations. The shared concept of deletion policies links them, but the exact relationship isn't explicitly stated.",
+            "score": 0.2997117042541504
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "No extensions or exceptions are permitted under standard operating conditions.\n\nCompliance\nAutomated deletion jobs run monthly, and compliance audits are conducted twice per year. Failure to follow this policy may result in regulatory penalties and disciplinary action.\n\n---",
+            "answer": "Yes, a relationship exists. Both documents emphasize strict compliance with no exceptions to data retention policies. Document A specifies the five-year deletion rule, while Document B reinforces the prohibition of extensions, aligning with the same compliance framework.",
+            "score": 0.26900815963745117
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "Responsibilities\nEngineering teams must immediately halt automated deletion pipelines upon receipt of a preservation request. Compliance officers will coordinate with legal counsel to determine affected datasets.\n\n---",
+            "answer": "A relationship exists between the documents. Both address data deletion policies, with Document A setting a strict five-year retention rule and Document B outlining procedures to halt deletions for preservation requests. The connection lies in their shared focus on compliance and data retention timelines.",
+            "score": 0.26592183113098145
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "---\n\nDOCUMENT 2\nTitle: Corporate Sustainability and Carbon Emissions Reduction Plan\nDepartment: Environmental Strategy Office\nReporting Period: 2025–2027",
+            "answer": "No relationship exists between the documents.  \nDocument A addresses data retention policies, while Document B focuses on environmental sustainability goals, with no shared concepts or contextual links.  \nNo uncertainty applies.",
+            "score": 0.17499065399169922
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "---\n\nDOCUMENT 5\nTitle: Office Expansion and Collaboration Strategy\nDepartment: Corporate Operations\nPlanning Horizon: 2025–2026\n\nBackground\nDue to projected workforce growth, the company plans to expand its physical office footprint by approximately 40 percent over the next two years.",
+            "answer": "No relationship exists between the documents.  \nDocument A focuses on data retention policies, while Document B addresses office expansion planning, with no shared concepts or contextual links.  \nNo uncertainty applies.",
+            "score": 0.1677166223526001
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "Implementation\nRenovations will begin in Q3 2025, with phased occupancy planned across regional offices.\n\n---\n\nDOCUMENT 6\nTitle: Product Version 3.0 Release Schedule\nDepartment: Product Engineering\nRevision Date: January 2025",
+            "answer": "No relationship exists between the documents.  \nBoth mention 2025, but Document A focuses on data retention policies, while Document B discusses renovation timelines, with no shared concepts or context linking them.  \nUncertainty: The mention of 2025 could imply a temporal connection, but it is insufficient to establish a meaningful relationship.",
+            "score": 0.11140549182891846
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 2\nCompany policy requires that customer data must always be deleted exactly five years after collection, with no circumstances allowing longer storage.",
+            "document_chunk": "Policy Details\nBeginning March 2025, all full-time employees may work remotely up to three days per week. Each department may choose which days are most appropriate for remote work based on project needs and client commitments.",
+            "answer": "No relationship exists between the documents.  \nBoth are company policies, but Document A focuses on data retention timelines, while Document B addresses remote work flexibility, with no shared concepts beyond being policies.  \nNo uncertainty.",
+            "score": 0.09679406881332397
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "Rationale\nLeadership believes that moderate remote work improves job satisfaction and retention while preserving collaboration opportunities through structured in-office days.\n\n---",
+            "answer": "A relationship exists between the documents. Both discuss remote work's impact on collaboration, with Document A emphasizing limited remote work for better collaboration and Document B supporting moderate remote work with structured in-office days to maintain collaboration. The shared focus on collaboration links them, though their approaches differ.",
+            "score": 0.7155688405036926
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "All teams are encouraged to increase their on-site presence to foster creativity and faster decision-making. Management guidance suggests that remote work should be minimized wherever possible to improve productivity and team cohesion.",
+            "answer": "A relationship exists between the documents.  \nBoth emphasize minimizing remote work to boost productivity and team cohesion, sharing concepts like collaboration, decision-making, and workplace dynamics.  \nDocument B expands on these ideas with additional focus on creativity and on-site presence.",
+            "score": 0.6646494269371033
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "Policy Details\nBeginning March 2025, all full-time employees may work remotely up to three days per week. Each department may choose which days are most appropriate for remote work based on project needs and client commitments.",
+            "answer": "There is a contradiction between the documents. Document A claims limiting remote work boosts productivity, while Document B promotes flexible remote work policies, suggesting opposing views on its impact. No uncertainty exists in the relationship.",
+            "score": 0.5092456340789795
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "Strategic Direction\nLeadership aims to strengthen in-person collaboration by increasing shared workspaces, meeting rooms, and innovation hubs.",
+            "answer": "Yes, a relationship exists. Both documents emphasize enhancing collaboration through in-person interactions, with Document A linking limited remote work to better collaboration and Document B outlining strategies to increase shared physical spaces for collaboration. No uncertainty.",
+            "score": 0.4729316234588623
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "Impact Assessment\nInternal modeling indicates that allowing employees to work remotely several days per week could reduce commuting-related emissions by approximately 12 percent annually.\n\nThe sustainability office will publish quarterly progress reports and adjust strategies as necessary.\n\n---",
+            "answer": "No direct relationship exists between the documents. Both discuss remote work but focus on different outcomes: Document A emphasizes productivity and collaboration, while Document B addresses environmental impact and sustainability strategies. The shared concept of remote work does not establish a direct link between their stated purposes.",
+            "score": 0.44639766216278076
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "Key Initiatives\nOne major contributor to emissions is employee commuting. To address this, the company actively encourages remote and hybrid work arrangements wherever operationally feasible.",
+            "answer": "There is a relationship between the documents. Both discuss remote work policies, with Document A focusing on limiting remote work for productivity and Document B promoting it to reduce commuting emissions. The shared concept of remote work policies highlights conflicting management priorities.",
+            "score": 0.4095945954322815
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "Managers are responsible for ensuring productivity levels remain consistent regardless of work location. Performance evaluations will continue to be based on outcomes rather than physical presence.",
+            "answer": "A relationship exists between the documents.  \nBoth discuss productivity and work location, with Document A linking limited remote work to higher productivity and Document B emphasizing outcome-based evaluations regardless of location.  \nThe documents differ in approach but share the central theme of managing productivity in varying work environments.",
+            "score": 0.3262019753456116
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "DOCUMENT 1\nTitle: Hybrid and Remote Work Policy\nDepartment: Human Resources\nEffective Date: March 1, 2025\n\nOverview\nThe company is introducing a hybrid work model to improve employee wellbeing while maintaining operational efficiency.",
+            "answer": "Yes, there is a relationship. Both documents discuss work policies and their impact on productivity and collaboration, with Document A focusing on limiting remote work for these outcomes and Document B outlining a hybrid model to balance efficiency and wellbeing. The shared concepts of productivity and work arrangement strategies link them.",
+            "score": 0.27105724811553955
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "Despite this flexibility, in-person attendance is mandatory on Mondays to support cross-team alignment, planning sessions, and company-wide meetings.",
+            "answer": "Yes, a relationship exists. Both documents discuss in-person work arrangements to enhance collaboration and productivity. Document A links limited remote work to better collaboration, while Document B specifies mandatory in-person attendance for team alignment, aligning with this shared goal.",
+            "score": 0.2680269479751587
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 3\nManagement believes limiting remote work leads to better collaboration and higher productivity.",
+            "document_chunk": "---\n\nDOCUMENT 5\nTitle: Office Expansion and Collaboration Strategy\nDepartment: Corporate Operations\nPlanning Horizon: 2025–2026\n\nBackground\nDue to projected workforce growth, the company plans to expand its physical office footprint by approximately 40 percent over the next two years.",
+            "answer": "No direct relationship exists between the documents. Both discuss collaboration strategies, but Document A focuses on limiting remote work, while Document B addresses physical office expansion for workforce growth. The connection is indirect and speculative.",
+            "score": 0.18100082874298096
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "There are no major user interface changes planned for this release cycle.\n\nTimeline\nBeta testing will start in April 2025, followed by release candidate builds in May. Final deployment is expected in mid-June pending quality assurance approval.",
+            "answer": "Yes, a relationship exists. Both documents reference the June 2025 release and emphasize no major visual changes, aligning on the focus of performance upgrades over UI redesign. The timeline in Document B complements Document A’s release context.",
+            "score": 0.5478227138519287
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "Overview\nProduct Version 3.0 is scheduled for public release in June 2025.\n\nRelease Focus\nThis version prioritizes backend performance improvements, system stability, and critical security patches requested by enterprise customers.",
+            "answer": "Yes, there is a relationship. Both documents refer to a June 2025 release focusing on performance improvements. Document B specifies the version (3.0) and details like backend performance, stability, and security, aligning with Document A's emphasis on performance upgrades.",
+            "score": 0.5192254781723022
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "Implementation\nRenovations will begin in Q3 2025, with phased occupancy planned across regional offices.\n\n---\n\nDOCUMENT 6\nTitle: Product Version 3.0 Release Schedule\nDepartment: Product Engineering\nRevision Date: January 2025",
+            "answer": "No relationship exists between the documents.  \nBoth mention 2025 but address distinct topics: software performance upgrades versus physical renovations.  \nNo shared concepts or explicit connections are evident.",
+            "score": 0.3938440680503845
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "---\n\nDOCUMENT 5\nTitle: Office Expansion and Collaboration Strategy\nDepartment: Corporate Operations\nPlanning Horizon: 2025–2026\n\nBackground\nDue to projected workforce growth, the company plans to expand its physical office footprint by approximately 40 percent over the next two years.",
+            "answer": "No relationship exists between the documents.  \nBoth discuss 2025-related plans but focus on distinct areas: software performance upgrades versus office expansion.  \nNo shared concepts or contextual links are evident.",
+            "score": 0.36189985275268555
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "---\n\nDOCUMENT 2\nTitle: Corporate Sustainability and Carbon Emissions Reduction Plan\nDepartment: Environmental Strategy Office\nReporting Period: 2025–2027",
+            "answer": "No relationship exists between the documents.  \nThey share the year 2025 but discuss unrelated topics: Document A focuses on software performance upgrades, while Document B addresses corporate sustainability and carbon emissions.  \nNo explicit connection or shared concepts are evident.",
+            "score": 0.2706819176673889
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "---\n\nDOCUMENT 4\nTitle: Emergency Data Preservation Notice\nDepartment: Legal Affairs\nIssued: November 2024\n\nScope\nThis notice applies during government inquiries, litigation, or internal investigations.",
+            "answer": "No relationship exists between the documents.  \nThey address entirely distinct topics: Document A discusses software performance upgrades, while Document B pertains to legal data preservation during investigations.  \nNo shared concepts or contextual links are evident.",
+            "score": 0.2641178369522095
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "DOCUMENT 1\nTitle: Hybrid and Remote Work Policy\nDepartment: Human Resources\nEffective Date: March 1, 2025\n\nOverview\nThe company is introducing a hybrid work model to improve employee wellbeing while maintaining operational efficiency.",
+            "answer": "No relationship exists between the documents.  \nBoth mention 2025, but Document A focuses on software performance upgrades, while Document B addresses hybrid work policies—distinct topics with no overlapping concepts.  \nNo uncertainty.",
+            "score": 0.24102520942687988
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "Additional measures include upgrading office lighting to energy-efficient systems, deploying smart climate controls, and transitioning company vehicles to electric alternatives.",
+            "answer": "No relationship exists between the documents. Both discuss upgrades, but Document A focuses on software performance, while Document B addresses physical infrastructure and sustainability measures. The contexts and domains differ significantly.",
+            "score": 0.2308661937713623
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "Executive Summary\nThe organization commits to reducing total carbon emissions by at least 25 percent by the end of 2025, relative to 2023 benchmarks.",
+            "answer": "No relationship exists between the documents. Both mention 2025 as a timeframe, but Document A focuses on software performance upgrades, while Document B addresses carbon emission reduction goals. The shared year does not imply a direct connection between the topics.",
+            "score": 0.20308053493499756
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 4\nThe upcoming June 2025 software release mainly concentrates on performance upgrades rather than visual redesign.",
+            "document_chunk": "Strategic Direction\nLeadership aims to strengthen in-person collaboration by increasing shared workspaces, meeting rooms, and innovation hubs.",
+            "answer": "There is no direct relationship between Document A and Document B.  \nBoth documents address organizational strategies but focus on distinct aspects: Document A emphasizes software performance upgrades, while Document B highlights physical workspace improvements for collaboration.  \nNo uncertainty in this conclusion.",
+            "score": 0.16529738903045654
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "Preservation Requirements\nWhen a legal investigation is initiated, all customer data relevant to the case must be preserved indefinitely, regardless of standard retention timelines.",
+            "answer": "A relationship exists between the documents. Both address data handling during legal investigations, with Document A's Query 6 pausing deletion rules and Document B's Preservation Requirements mandating indefinite retention of relevant data. The shared concept of legal investigations influencing data management policies links them.",
+            "score": 0.49673163890838623
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "During such periods, routine deletion policies are suspended until Legal Affairs formally declares the investigation closed.",
+            "answer": "A relationship exists between Document A and Document B. Both address the suspension of data deletion policies during legal investigations, with Document A's Query 6 and Document B sharing the same procedural requirement. No uncertainty is present.",
+            "score": 0.46306318044662476
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "---\n\nDOCUMENT 3\nTitle: Customer Data Retention and Deletion Policy\nDepartment: Legal and Compliance\nVersion: 2.1\n\nPurpose\nThis policy defines how long customer personal data may be stored and outlines mandatory deletion procedures.",
+            "answer": "There is a relationship between Document A and Document B.  \nQuery 6 in Document A directly references pausing data deletion rules during legal investigations, which aligns with Document B's focus on customer data retention and deletion policies.  \nNo uncertainty, as the connection is explicit.",
+            "score": 0.45501989126205444
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "Retention Rules\nAll customer personal data must be retained for exactly five years from the date of last interaction. After this period expires, the data must be permanently deleted from all production systems, backups, and archives.",
+            "answer": "A relationship exists between the documents. Both address data retention and deletion policies, with Document B's retention rules directly informing the normal deletion process referenced in Document A's Query 6. The connection is clear through shared concepts of data lifecycle management.",
+            "score": 0.433052122592926
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "No extensions or exceptions are permitted under standard operating conditions.\n\nCompliance\nAutomated deletion jobs run monthly, and compliance audits are conducted twice per year. Failure to follow this policy may result in regulatory penalties and disciplinary action.\n\n---",
+            "answer": "There is a relationship between the documents. Both discuss compliance policies, with Document A mentioning paused data deletion during legal investigations and Document B outlining automated deletion and compliance audits. The connection lies in shared concepts of data management and regulatory adherence.",
+            "score": 0.43257689476013184
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "Policy Details\nBeginning March 2025, all full-time employees may work remotely up to three days per week. Each department may choose which days are most appropriate for remote work based on project needs and client commitments.",
+            "answer": "There is a relationship between Document A and Document B. Both address employee presence policies, with Document A requiring daily in-office work and Document B allowing remote work three days a week. The contradiction in employee presence requirements suggests a potential policy shift or conflict.",
+            "score": 0.407654345035553
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "Responsibilities\nEngineering teams must immediately halt automated deletion pipelines upon receipt of a preservation request. Compliance officers will coordinate with legal counsel to determine affected datasets.\n\n---",
+            "answer": "A relationship exists between Document A and Document B. Both address pausing data deletion processes during legal investigations or preservation requests, sharing concepts like halting automated deletion and legal compliance coordination. No uncertainty noted.",
+            "score": 0.3561897873878479
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "Despite this flexibility, in-person attendance is mandatory on Mondays to support cross-team alignment, planning sessions, and company-wide meetings.",
+            "answer": "A relationship exists. Both documents discuss in-person attendance requirements, with Document A specifying weekday presence and Document B focusing on Monday mandatory attendance. The second query in Document A about legal investigations does not relate to Document B.",
+            "score": 0.34539204835891724
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "---\n\nDOCUMENT 4\nTitle: Emergency Data Preservation Notice\nDepartment: Legal Affairs\nIssued: November 2024\n\nScope\nThis notice applies during government inquiries, litigation, or internal investigations.",
+            "answer": "A relationship exists between Document A and Document B. Both address pausing data deletion procedures during legal investigations, with Document A's Query 6 and Document B's Emergency Data Preservation Notice sharing this core concept. The connection lies in their overlapping focus on legal investigations and data preservation protocols.",
+            "score": 0.2616916298866272
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            }
+        ]
+    ],
+    [
+        {
+            "query_chunk": "QUERY 5\nEmployees are required to be physically present in the office every weekday.\n\nQUERY 6\nWhen legal investigations occur, normal customer data deletion rules must be paused.",
+            "document_chunk": "Impact Assessment\nInternal modeling indicates that allowing employees to work remotely several days per week could reduce commuting-related emissions by approximately 12 percent annually.\n\nThe sustainability office will publish quarterly progress reports and adjust strategies as necessary.\n\n---",
+            "answer": "There is a relationship between Document A and Document B.  \nThey both address employee presence and its impact on emissions, with Document A's first query requiring in-office work and Document B discussing remote work's sustainability benefits.  \nThe second query in Document A is unrelated to Document B.",
+            "score": 0.25184571743011475
+        },
+        [
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            }
+        ]
+    ]
+]

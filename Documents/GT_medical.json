@@ -1,0 +1,52 @@
+[
+  {
+    "query_chunk": "Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
+    "answer": "RELATIONSHIP: supports\nREASON: Document 1 states that all patients must attempt a 3-month period of lifestyle modification, including the DASH diet, before initiating pharmacological treatment.",
+    "relevant_doc": "Document 1"
+  },
+  {
+    "query_chunk": "It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
+    "answer": "RELATIONSHIP: contradicts\nREASON: Document 2 explicitly restricts ibuprofen use to infants older than 6 months and forbids it for those under 6 months due to kidney injury risks.",
+    "relevant_doc": "Document 2"
+  },
+  {
+    "query_chunk": "A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
+    "answer": "RELATIONSHIP: contradicts\nREASON: Document 3 specifies that healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.",
+    "relevant_doc": "Document 3"
+  },
+  {
+    "query_chunk": "If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately.",
+    "answer": "RELATIONSHIP: supports\nREASON: Document 4 mandates immediate supplemental oxygen administration for pulse oximetry readings below 92% regardless of prior history.",
+    "relevant_doc": "Document 4"
+  },
+  {
+    "query_chunk": "Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
+    "answer": "RELATIONSHIP: contradicts\nREASON: Document 7 explicitly lists lodging as an ineligible expense for the professional development fund.",
+    "relevant_doc": "Document 7"
+  },
+  {
+    "query_chunk": "The company provides a monthly subsidy for employee gym memberships to promote physical health.",
+    "answer": "RELATIONSHIP: unrelated\nREASON: None of the provided documents (Medical, HR, IT, or Logistics) contain information regarding gym memberships or fitness subsidies.",
+    "relevant_doc": "None"
+  },
+  {
+    "query_chunk": "For security reasons, IT administrators must update their system passwords every three months.",
+    "answer": "RELATIONSHIP: supports\nREASON: Document 8 requires mandatory password changes every 90 days for all administrative accounts.",
+    "relevant_doc": "Document 8"
+  },
+  {
+    "query_chunk": "A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
+    "answer": "RELATIONSHIP: contradicts\nREASON: Document 9 requires the pre-tax order total to exceed $75 to qualify for free standard shipping.",
+    "relevant_doc": "Document 9"
+  },
+  {
+    "query_chunk": "The cafeteria menu is updated weekly to include vegan and gluten-free options for all staff.",
+    "answer": "RELATIONSHIP: unrelated\nREASON: The provided document set does not cover office amenities or cafeteria policies.",
+    "relevant_doc": "None"
+  },
+  {
+    "query_chunk": "All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
+    "answer": "RELATIONSHIP: supports\nREASON: Document 8 states that Multi-Factor Authentication (MFA) is strictly required for all remote logins.",
+    "relevant_doc": "Document 8"
+  }
+]

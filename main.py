@@ -1,5 +1,3 @@
-
-import asyncio
 from langchain_community.vectorstores import FAISS
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_ollama import ChatOllama, OllamaEmbeddings
@@ -12,13 +10,15 @@ from Eval_class import evaluate
 import json
 import time
 
-doc1_path = r"Documents\Doc1.txt"
-doc2_path = r"Documents\Doc2.txt"
+DOCUMENT_PATH = r"Documents\Doc_medical.txt"
+QUERY_PATH = r"Documents\Medical_query.txt"
+GROUND_TRUTH_PATH = r"Documents\GT_medical.json"
+RESULTS_PATH = r"Documents\results_medical.json"
 
-parag_split1 = chunking(doc1_path, chunk_size=300, chunk_overlap=50)
-parag_split2 = chunking(doc2_path, chunk_size=200, chunk_overlap=0)
+parag_split1 = chunking(DOCUMENT_PATH, chunk_size=300, chunk_overlap=50)
+parag_split2 = chunking(QUERY_PATH, chunk_size=200, chunk_overlap=0)
 
-with open(r"Documents\ground_truth.json", "r", encoding="utf-8") as f:
+with open(GROUND_TRUTH_PATH, "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
 
 llm = ChatOllama(
@@ -47,13 +47,10 @@ def main():
 
     t1 = time.perf_counter()
 
-    results = []
-    for chunk, truth in zip(rag_results, ground_truth):
-        eval = evaluate(chunk, truth)
-        results.append((chunk, eval))
+    results = [(chunk, [evaluate(chunk, truth) for truth in ground_truth]) for chunk in rag_results]
     
-    json_output(results, "results.json")
-    print("Evaluation completed. Results saved to results.json")
+    json_output(results, RESULTS_PATH)
+    print(f"Evaluation completed. Results saved to {RESULTS_PATH}")
 
     t2 = time.perf_counter()
     print(f"RAG processing completed in {t1 - t0:.2f} seconds.")

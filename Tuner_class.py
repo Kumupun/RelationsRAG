@@ -11,7 +11,7 @@ class ThresholdTuner:
         self.ground_truth = ground_truth
         self.outputs = outputs
         self.evaluate = evaluate_fn
-        self.thresholds = np.linspace(0.2, 1.0, 30)
+        self.thresholds = np.linspace(0.2, 1.0, 100)
         self.prec_w = prec_w
         self.reca_w = reca_w 
         self.positives = float(len(ground_truth))
