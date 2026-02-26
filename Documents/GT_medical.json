@@ -48,5 +48,20 @@
     "query_chunk": "All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
     "answer": "RELATIONSHIP: supports\nREASON: Document 8 states that Multi-Factor Authentication (MFA) is strictly required for all remote logins.",
     "relevant_doc": "Document 8"
+  },
+  {
+    "query_chunk": "The office cafeteria provides free catered lunch every Friday for all full-time medical staff.",
+    "answer": "RELATIONSHIP: unrelated\nREASON: None of the provided documents (Medical, HR, IT, or Logistics) contain information regarding cafeteria services, meal benefits, or catering schedules.",
+    "relevant_doc": "None"
+  },
+  {
+    "query_chunk": "All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.",
+    "answer": "RELATIONSHIP: unrelated\nREASON: While Document 8 discusses IT security and authentication, there is no policy provided regarding hardware maintenance, laptop lifecycles, or refresh schedules.",
+    "relevant_doc": "None"
+  },
+  {
+    "query_chunk": "Employees are allowed to bring their pets into the office as long as they remain in a designated 'Pet-Friendly Zone.'",
+    "answer": "RELATIONSHIP: unrelated\nREASON: The provided document set does not address pet policies, office animal regulations, or designated pet zones.",
+    "relevant_doc": "None"
   }
 ]

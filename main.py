@@ -22,7 +22,7 @@ with open(GROUND_TRUTH_PATH, "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
 
 llm = ChatOllama(
-    model="qwen3:8b",
+    model="phi",
     temperature = 0.5)
 
 embeddings = OllamaEmbeddings(

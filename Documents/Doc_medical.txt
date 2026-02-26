@@ -67,3 +67,164 @@ Standard Delivery: Domestic orders are shipped via ground transport with an expe
 
 Shipping Constraints:
 Any shipment containing lithium-ion batteries must be labeled "Class 9 Miscellaneous" and is ineligible for air transport.
+
+DOCUMENT 10
+Title: Diabetic Retinal Screening
+Department: Ophthalmology
+Effective Date: January 2026
+Standard: All patients diagnosed with Type 2 Diabetes must receive a dilated eye exam annually to screen for retinopathy.
+
+Urgency Details:
+If a patient reports sudden "floaters" or flashes of light, they must be seen by a specialist within 24 hours.
+
+DOCUMENT 11
+Title: Controlled Substance Prescription Policy
+Department: Pharmacy Compliance
+Refill Rules: Schedule II controlled substances cannot be refilled; a new prescription is required for every dispensing event.
+
+Safety Protocols:
+Patients must present a valid government-issued photo ID to collect any narcotic medication.
+
+DOCUMENT 12
+Title: Telehealth Eligibility
+Department: Patient Services
+Clinical Criteria: Initial diagnostic consultations for neurological symptoms must be conducted in person; follow-ups may occur via video.
+
+Patient Requirements:
+Patients are responsible for ensuring a private, quiet environment for the duration of the 20-minute session.
+
+DOCUMENT 13
+Title: Post-Operative Wound Care
+Department: Surgical Nursing
+Maintenance: Surgical sites must remain dry for the first 48 hours; do not submerge in water (baths or pools).
+
+Infection Signs:
+Notify the surgical team immediately if the site temperature exceeds 101°F or if yellow discharge is present.
+
+DOCUMENT 14
+Title: Hospital Visitor Safety
+Department: Facilities
+Visiting Hours: Standard visiting hours are 08:00 to 20:00 daily.
+
+Capacity Restrictions:
+No more than two visitors are permitted in a double-occupancy room at any single time.
+
+DOCUMENT 15
+Title: Anticoagulation Therapy (Warfarin)
+Department: Hematology
+Dietary Management: Patients must maintain a consistent intake of Vitamin K (leafy greens) to avoid fluctuations in INR levels.
+
+Emergency Indicators:
+Uncontrolled nosebleeds lasting longer than 15 minutes require immediate ER evaluation.
+
+DOCUMENT 16
+Title: Neonatal Jaundice Screening
+Department: Maternity
+Timing: All newborns must be screened for bilirubin levels within 24 hours of birth.
+
+Treatment Standards:
+Phototherapy is initiated if levels exceed the age-specific threshold on the BiliTool chart.
+
+DOCUMENT 17
+Title: MRI Safety Protocol
+Department: Radiology
+Contraindications: Patients with non-MRI-compatible pacemakers or metallic fragments in the eye are strictly prohibited from the magnet room.
+
+Preparation:
+All jewelry and wearable electronics must be stored in secured lockers prior to entry.
+
+DOCUMENT 18
+Title: Laboratory Sample Labeling
+Department: Pathology
+Labeling Accuracy: Vials must be labeled at the bedside in the presence of the patient with two unique identifiers.
+
+Rejection Criteria:
+Any sample with a mismatched label or missing collection timestamp will be rejected and require a redraw.
+
+DOCUMENT 19
+Title: Mental Health Crisis Intervention
+Department: Behavioral Health
+Tiered Response: Staff should utilize "De-escalation Phase 1" (verbal redirection) before calling for a physical intervention team.
+
+Reporting:
+Every use of restrictive measures must be documented in the Electronic Health Record within 1 hour.
+
+DOCUMENT 20
+Title: Influenza Vaccination Mandate
+Department: Occupational Health
+Staff Requirements: All clinical staff must receive the annual flu vaccine by November 1st.
+
+Exemption Policy:
+Medical exemptions require a signed statement from an external board-certified allergist.
+
+DOCUMENT 21
+Title: Pediatric Asthma Action Plan
+Department: Pulmonology
+Green Zone: If breathing is easy and the patient can play, continue daily controller medication as prescribed.
+
+Yellow Zone:
+Use rescue inhaler (Albuterol) if coughing or wheezing occurs during physical activity.
+
+DOCUMENT 22
+Title: HIPAA Data Breach Protocol
+Department: Legal and IT Compliance
+Reporting Timeline: Any unauthorized access to Patient Protected Health Information (PHI) must be reported to the Privacy Officer within 24 hours.
+
+Patient Notification:
+Affected individuals must be notified via first-class mail within 60 days of breach discovery.
+
+DOCUMENT 23
+Title: Clinical Trial Enrollment
+Department: Research & Development
+Informed Consent: Participants must sign the consent form after a 24-hour "reflection period" following the initial briefing.
+
+Participant Rights:
+Subjects may withdraw from the study at any time without impacting their standard of care.
+
+DOCUMENT 24
+Title: Organ Donation Coordination
+Department: Transplant Services
+Referral Requirements: Hospitals must notify the local Organ Procurement Organization (OPO) for every death or imminent death.
+
+Verification:
+Brain death must be confirmed by two independent physicians not involved in the transplant team.
+
+DOCUMENT 25
+Title: Medical Waste Disposal
+Department: Environmental Services
+Biohazard Management: Sharps (needles) must be placed in puncture-resistant red containers; do not overfill past the "fill line".
+
+Pharmaceutical Waste:
+Expired non-controlled medications are processed through the "blue bin" hazardous waste stream.
+
+DOCUMENT 26
+Title: Stroke Protocol (Code Brain)
+Department: Neurology
+Performance Goals: "Door-to-CT" time should be less than 20 minutes for patients presenting with focal neurological deficits.
+
+Clinical Window:
+Thrombolytics may be administered within 4.5 hours of "last known well" time if no contraindications exist.
+
+DOCUMENT 27
+Title: Patient Financial Responsibility
+Department: Billing
+Payment Policy: All insurance co-payments are due at the time of service unless a payment plan is established in advance.
+
+Uninsured Support:
+A 20% "prompt pay" discount is applied to self-pay patients who settle their balance within 30 days.
+
+DOCUMENT 28
+Title: Geriatric Fall Prevention
+Department: Physical Therapy
+Initial Assessment: Patients over age 65 must undergo a "Timed Up and Go" (TUG) test during their initial intake.
+
+Safety Measures:
+Non-slip socks and bed alarms are mandatory for patients identified as "High Fall Risk".
+
+DOCUMENT 29
+Title: Allergy Desensitization (Shots)
+Department: Immunology
+Observation Period: Patients must remain in the clinic for 30 minutes after an allergy injection to monitor for anaphylaxis.
+
+Mandatory Equipment:
+All patients on immunotherapy are required to carry a personal epinephrine auto-injector.

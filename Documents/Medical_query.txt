@@ -15,3 +15,9 @@ QUERY 8: For security reasons, IT administrators must update their system passwo
 QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.
 
 QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.
+
+QUERY 11: The office cafeteria provides free catered lunch every Friday for all full-time medical staff.
+
+QUERY 12: All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.
+
+QUERY 12: Employees are allowed to bring their pets into the office as long as they remain in a designated "Pet-Friendly Zone."
