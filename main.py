@@ -22,7 +22,7 @@ with open(GROUND_TRUTH_PATH, "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
 
 llm = ChatOllama(
-    model="phi",
+    model="qwen3:0.6b",
     temperature = 0.5)
 
 embeddings = OllamaEmbeddings(
@@ -46,7 +46,7 @@ def main():
     print(f"Sample number {k} retrieved for each query chunk.")
 
     t1 = time.perf_counter()
-
+    
     results = [(chunk, [evaluate(chunk, truth) for truth in ground_truth]) for chunk in rag_results]
     
     json_output(results, RESULTS_PATH)
@@ -56,7 +56,7 @@ def main():
     print(f"RAG processing completed in {t1 - t0:.2f} seconds.")
     print(f"Evaluation completed in {t2 - t1:.2f} seconds.")
 
-    tuner = ThresholdTuner(ground_truth, rag_results, evaluate)
+    tuner = ThresholdTuner(ground_truth, results)
     best_threshold, best_score = tuner.tune()
 
     print(f"Best threshold: {best_threshold:.4f} with score: {best_score:.2%}")

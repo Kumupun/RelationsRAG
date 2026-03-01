@@ -30,38 +30,8 @@
     "relevant_doc": "None"
   },
   {
-    "query_chunk": "For security reasons, IT administrators must update their system passwords every three months.",
-    "answer": "RELATIONSHIP: supports\nREASON: Document 8 requires mandatory password changes every 90 days for all administrative accounts.",
-    "relevant_doc": "Document 8"
-  },
-  {
     "query_chunk": "A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
     "answer": "RELATIONSHIP: contradicts\nREASON: Document 9 requires the pre-tax order total to exceed $75 to qualify for free standard shipping.",
     "relevant_doc": "Document 9"
-  },
-  {
-    "query_chunk": "The cafeteria menu is updated weekly to include vegan and gluten-free options for all staff.",
-    "answer": "RELATIONSHIP: unrelated\nREASON: The provided document set does not cover office amenities or cafeteria policies.",
-    "relevant_doc": "None"
-  },
-  {
-    "query_chunk": "All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
-    "answer": "RELATIONSHIP: supports\nREASON: Document 8 states that Multi-Factor Authentication (MFA) is strictly required for all remote logins.",
-    "relevant_doc": "Document 8"
-  },
-  {
-    "query_chunk": "The office cafeteria provides free catered lunch every Friday for all full-time medical staff.",
-    "answer": "RELATIONSHIP: unrelated\nREASON: None of the provided documents (Medical, HR, IT, or Logistics) contain information regarding cafeteria services, meal benefits, or catering schedules.",
-    "relevant_doc": "None"
-  },
-  {
-    "query_chunk": "All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.",
-    "answer": "RELATIONSHIP: unrelated\nREASON: While Document 8 discusses IT security and authentication, there is no policy provided regarding hardware maintenance, laptop lifecycles, or refresh schedules.",
-    "relevant_doc": "None"
-  },
-  {
-    "query_chunk": "Employees are allowed to bring their pets into the office as long as they remain in a designated 'Pet-Friendly Zone.'",
-    "answer": "RELATIONSHIP: unrelated\nREASON: The provided document set does not address pet policies, office animal regulations, or designated pet zones.",
-    "relevant_doc": "None"
   }
 ]

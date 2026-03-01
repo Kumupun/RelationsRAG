@@ -7,10 +7,9 @@ load_dotenv()
 wandb.login(key=os.getenv("API_WANDB"))
 
 class ThresholdTuner:
-    def __init__(self, ground_truth, outputs, evaluate_fn, prec_w=0.5, reca_w=0.5):
+    def __init__(self, ground_truth, outputs, prec_w=0.5, reca_w=0.5):
         self.ground_truth = ground_truth
         self.outputs = outputs
-        self.evaluate = evaluate_fn
         self.thresholds = np.linspace(0.2, 1.0, 100)
         self.prec_w = prec_w
         self.reca_w = reca_w 
@@ -28,17 +27,23 @@ class ThresholdTuner:
 
             tp = fp = fn = 0
 
-            for outs in self.outputs:
-                current_outs = outs.copy()
+            for entry in self.outputs:
+                prediction = entry[0]
+                ground_truth_list = entry[1]
 
-                if outs["score"] < threshold:
-                    current_outs["document_chunk"] = ""
-                    current_outs["answer"] = "I don't know. No relevant documents were retrieved."
+                if prediction["answer"] == "I don't know. No relevant documents were retrieved.":
                     continue
+                elif prediction["score"] < threshold:
+                    prediction["document_chunk"] = ""
+                    prediction["answer"] = "I don't know. No relevant documents were retrieved."
+                    continue
+                for res_gt in ground_truth_list:
+                    if res_gt["correct"] == True:
+                        retrieved += 1
+                    else:
+                        continue 
 
-                retrieved += 1
-
-            tp =  self.positives
+            tp = self.positives
             fp = retrieved - self.positives if retrieved > self.positives else 0.0
             fn = tp - retrieved if retrieved < self.positives else 0.0
             precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0

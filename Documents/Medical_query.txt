@@ -20,4 +20,4 @@ QUERY 11: The office cafeteria provides free catered lunch every Friday for all 
 
 QUERY 12: All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.
 
-QUERY 12: Employees are allowed to bring their pets into the office as long as they remain in a designated "Pet-Friendly Zone."
+QUERY 13: Employees are allowed to bring their pets into the office as long as they remain in a designated "Pet-Friendly Zone."

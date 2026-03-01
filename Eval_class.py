@@ -71,6 +71,9 @@ ANSWER:
 
 GROUND TRUTH:
 {truth['answer']}
+
+GROUND TRUTH RELEVANT DOC:
+{truth['relevant_doc']}
 """
 
     grade = eval_llm.invoke([
