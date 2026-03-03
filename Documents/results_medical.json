@@ -3,7 +3,7 @@
         {
             "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
             "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
-            "answer": "Yes, there is a relationship between Document A and Document B. Both documents emphasize the same lifestyle interventions—specifically the DASH diet and aerobic exercise—as mandatory steps for managing hypertension, aligning with the first phase of treatment. Document A highlights the DASH diet as a mandatory first step, while Document B explicitly states that patients must attempt this lifestyle modification over 3 months. This shared focus on lifestyle changes directly connects the two documents.",
+            "answer": "A relationship exists.  \nSentence 1: Clearly state whether a relationship exists.  \nSentence 2: Document A states the DASH diet as the mandatory first step for Stage 1 hypertension, while Document B confirms patients must attempt lifestyle modifications like the DASH diet and aerobic exercise.  \nSentence 3: No uncertainty.",
             "score": 0.5061941742897034
         },
         [
@@ -26,12 +26,6 @@
                 "correct": false
             },
             {
-                "grounded": true,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": true,
@@ -41,7 +35,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": true,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -55,32 +55,20 @@
         {
             "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
             "document_chunk": "DOCUMENT 1\nTitle: Hypertension Management Protocol\nDepartment: Cardiology\nEffective Date: January 2026\nOverview: This protocol outlines the primary treatment path for Stage 1 hypertension (130-139/80-89 mmHg).",
-            "answer": "There is a relationship between Document A and Document B. Document A states that the DASH diet is a mandatory first step for Stage 1 hypertension, while Document B outlines a protocol for managing Stage 1 hypertension, including lifestyle changes. This shared focus on hypertension management and lifestyle modifications establishes a direct connection.  \n\nThe reasoning is that both documents emphasize the importance of lifestyle interventions in managing hypertension, making them directly related.  \n\nNo uncertainty exists in the relationship.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A states that the DASH diet is a lifestyle change for Stage 1 hypertension, while Document B details a hypertension management protocol that includes this lifestyle approach.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.49133455753326416
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
@@ -92,8 +80,20 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
@@ -107,32 +107,20 @@
         {
             "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
             "document_chunk": "Policy Details:\nIf blood pressure remains elevated after 3 months, initiate low-dose ACE inhibitors or Calcium Channel Blockers. \nPatients should perform home blood pressure monitoring twice daily (morning and evening) and log results.",
-            "answer": "Yes, there is a relationship between Document A and Document B. Document A highlights the DASH diet as a mandatory lifestyle step for Stage 1 hypertension, while Document B outlines policy recommendations for initiating low-dose ACE inhibitors or calcium channel blockers after blood pressure monitoring. Both documents emphasize hypertension management through lifestyle and medication interventions, aligning with shared concepts of hypertension prevention and treatment.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A identifies the DASH diet as a lifestyle change for Stage 1 hypertension, while Document B outlines policy recommendations for monitoring and medication after 3 months.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.316753625869751
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
@@ -145,7 +133,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
@@ -159,32 +159,20 @@
         {
             "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
             "document_chunk": "Screening Exceptions:\nRoutine fasting lipid panels and glucose checks are mandatory during these biennial visits. \nPatients with pre-existing chronic conditions (e.g., Diabetes, Asthma) are exempt from this timeline and must be seen at least every 6 months.",
-            "answer": "Yes, there is a relationship between the documents. Document A mentions that the DASH diet is a mandatory first step for Stage 1 hypertension management, while Document B highlights screening exceptions such as routine lipid panels and glucose checks. The shared concepts of lifestyle changes and screening procedures in both documents suggest a connection to hypertension management, though the specific link between the DASH diet and screening exceptions is not explicitly detailed.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A discusses lifestyle changes (DASH diet) for hypertension management, while Document B mentions screening requirements and exceptions for patients with pre-existing conditions. These topics are unrelated.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.30557888746261597
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
@@ -196,8 +184,20 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
@@ -211,7 +211,7 @@
         {
             "query_chunk": "QUERY 1: Lifestyle changes like the DASH diet are the mandatory first step for Stage 1 hypertension before moving to medication.",
             "document_chunk": "DOCUMENT 28\nTitle: Geriatric Fall Prevention\nDepartment: Physical Therapy\nInitial Assessment: Patients over age 65 must undergo a \"Timed Up and Go\" (TUG) test during their initial intake.\n\nSafety Measures:\nNon-slip socks and bed alarms are mandatory for patients identified as \"High Fall Risk\".",
-            "answer": "First sentence: There is a relationship between Document A and Document B because both discuss patients needing specific lifestyle changes (DASH diet) and fall prevention measures.  \nSecond sentence: Document A emphasizes hypertension management through lifestyle changes, while Document B focuses on geriatric patients’ fall prevention strategies.  \nThird sentence: The connection is indirect, as the DASH diet and fall prevention measures are distinct health interventions.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A mentions lifestyle changes for hypertension, while Document B discusses geriatric fall prevention. These topics are unrelated, as they pertain to different health conditions and prevention strategies.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.2144850492477417
         },
         [
@@ -249,7 +249,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
@@ -263,7 +263,7 @@
         {
             "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
             "document_chunk": "DOCUMENT 2\nTitle: Pediatric Fever and Ibuprofen Safety\nDepartment: Pediatrics\nRevision: 4.0\nDosage Standards: Ibuprofen may be administered to infants older than 6 months for fever reduction.",
-            "answer": "There is a relationship between Document A and Document B because both discuss ibuprofen safety for infants, but with different age ranges. Document A specifies a 4-month-old infant, while Document B mentions an infant older than 6 months. This discrepancy highlights potential conflicts in the scope of age-related restrictions.  \n\nThe reasoning is that Document A provides specific information about a 4-month-old, while Document B sets a broader age limit, suggesting that the safety guidelines in Document A apply to a younger infant.  \n\nUncertainty exists because the relationship depends on the exact age range specified in each document, making it ambiguous whether the two references are consistent or conflicting.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A provides that a 4-month-old infant can receive a weight-calculated dose of ibuprofen if they have a high fever, while Document B states that ibuprofen may be administered to infants older than 6 months for fever reduction. This matches in both contexts.  \nSentence 3: No uncertainty.",
             "score": 0.6925143003463745
         },
         [
@@ -315,50 +315,50 @@
         {
             "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
             "document_chunk": "Safety Restrictions:\nThe standard dose is 10mg/kg every 6 to 8 hours, not to exceed 4 doses in 24 hours. \nDo not administer ibuprofen to infants under 6 months old or those with suspected dehydration due to risk of kidney injury.",
-            "answer": "There is a relationship between Document A and Document B. Document A states that a 4-month-old infant with a high fever can receive a weight-calculated dose of ibuprofen, while Document B specifies that ibuprofen should not be given to infants under 6 months or those with dehydration due to kidney injury. This aligns with the safety restrictions in Document B, which emphasize dosing and age limitations.  \n\nThe reasoning is that both documents reference safe dosing practices for infants, though Document A focuses on the specific dose and Document B provides broader restrictions.  \n\nNo uncertainty exists in the relationship.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A specifies a weight-calculated dose for a 4-month-old infant, while Document B outlines safety restrictions including the standard dose. This indicates a semantic link between the two documents regarding dosing and safety guidelines.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.6345783472061157
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             }
         ]
@@ -367,7 +367,7 @@
         {
             "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
             "document_chunk": "Clinical Window:\nThrombolytics may be administered within 4.5 hours of \"last known well\" time if no contraindications exist.",
-            "answer": "No relationship exists between Document A and Document B. Document A discusses timing for ibuprofen administration, while Document B refers to thrombolytic administration timing. These topics are unrelated in medical terminology.",
+            "answer": "A relationship exists. Sentence 2: Document A discusses a medical recommendation for ibuprofen in a specific context, while Document B provides information about thrombolytic administration timing. No overlapping concepts or shared claims are found. Sentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.30311644077301025
         },
         [
@@ -405,7 +405,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -419,7 +419,7 @@
         {
             "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
             "document_chunk": "Emergency Indicators:\nUncontrolled nosebleeds lasting longer than 15 minutes require immediate ER evaluation.\n\nDOCUMENT 16\nTitle: Neonatal Jaundice Screening\nDepartment: Maternity\nTiming: All newborns must be screened for bilirubin levels within 24 hours of birth.",
-            "answer": "There is no direct relationship between Document A and Document B. Document A discusses a medical advice for ibuprofen, while Document B outlines emergency indicators related to neonatal care. No shared concepts or overlapping contexts exist between these documents.",
+            "answer": "Sentence 1: No relationship exists.  \nSentence 2: Document A discusses a medical decision regarding ibuprofen, while Document B addresses emergency indicators unrelated to neonatal care.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.29663968086242676
         },
         [
@@ -471,7 +471,7 @@
         {
             "query_chunk": "QUERY 2: It is safe to give a 4-month-old infant a weight-calculated dose of ibuprofen if they have a high fever.",
             "document_chunk": "Reporting:\nEvery use of restrictive measures must be documented in the Electronic Health Record within 1 hour.\n\nDOCUMENT 20\nTitle: Influenza Vaccination Mandate\nDepartment: Occupational Health\nStaff Requirements: All clinical staff must receive the annual flu vaccine by November 1st.",
-            "answer": "There is no relationship between the documents. Document A discusses medical dosing for ibuprofen, while Document B mentions health record documentation and influenza vaccination mandates. The topics and contexts are unrelated.",
+            "answer": "A relationship exists.  \nSentence 1: No relevant documents were retrieved.  \nSentence 2: The documents discuss unrelated topics.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.26406627893447876
         },
         [
@@ -479,7 +479,25 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -498,24 +516,6 @@
                 "relevant": true,
                 "retrieval_relevant": false,
                 "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
             }
         ]
     ],
@@ -523,7 +523,7 @@
         {
             "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
             "document_chunk": "DOCUMENT 3\nTitle: Annual Physical and Preventative Screening\nDepartment: General Medicine\nPolicy Year: 2026\nGeneral Screening: Healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.",
-            "answer": "No relationship between the documents. Document A specifies a 30-year-old with no medical history requiring a full physical exam annually, while Document B outlines a general policy of a comprehensive exam once every two years for 18–45-year-olds. These are distinct contexts and do not share common concepts or overlapping requirements.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A specifies a 30-year-old with no medical history needing a full physical exam every year, while Document B outlines a policy requiring a comprehensive exam every two years for healthy adults aged 18–45. These topics are distinct, with no overlap in concepts or claims.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.6562052369117737
         },
         [
@@ -537,7 +537,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -575,7 +575,7 @@
         {
             "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
             "document_chunk": "DOCUMENT 28\nTitle: Geriatric Fall Prevention\nDepartment: Physical Therapy\nInitial Assessment: Patients over age 65 must undergo a \"Timed Up and Go\" (TUG) test during their initial intake.\n\nSafety Measures:\nNon-slip socks and bed alarms are mandatory for patients identified as \"High Fall Risk\".",
-            "answer": "Yes, there is a relationship. Document A mentions a 30-year-old with no medical history requiring a full physical exam every year, while Document B specifies that patients over 65 must undergo a TUG test and have non-slip socks and bed alarms. The 30-year-old in Document A could be interpreted as a high fall risk patient due to age, but the information in Document A does not explicitly state this. Thus, the relationship hinges on assuming the 30-year-old falls within the high fall risk category, which is not explicitly confirmed.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A mentions a physical exam requirement for a 30-year-old without medical history, while Document B discusses a TUG test for patients over 65. Both involve health assessments and fall prevention measures.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.47068750858306885
         },
         [
@@ -613,7 +613,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
@@ -627,32 +627,26 @@
         {
             "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
             "document_chunk": "Exemption Policy:\nMedical exemptions require a signed statement from an external board-certified allergist.\n\nDOCUMENT 21\nTitle: Pediatric Asthma Action Plan\nDepartment: Pulmonology\nGreen Zone: If breathing is easy and the patient can play, continue daily controller medication as prescribed.",
-            "answer": "Yes, there is a relationship. Document A mentions a 30-year-old needing a physical exam every year, and Document 21's asthma action plan includes a green zone tied to breathing and medication. This connects the 30-year-old's health requirements with the asthma management plan, indicating a shared focus on medical compliance.  \n\nThe relationship is based on the idea that the 30-year-old's health needs to be monitored and addressed according to the asthma action plan's guidelines.  \n\nNo uncertainty in the relationship.",
+            "answer": "No relationship exists. The documents discuss unrelated topics: Document A's physical exam requirement and Document B's exemption policy, while Document 21's content is unrelated to either.",
             "score": 0.3312971591949463
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
@@ -664,14 +658,20 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
             }
         ]
     ],
@@ -679,50 +679,50 @@
         {
             "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
             "document_chunk": "Screening Exceptions:\nRoutine fasting lipid panels and glucose checks are mandatory during these biennial visits. \nPatients with pre-existing chronic conditions (e.g., Diabetes, Asthma) are exempt from this timeline and must be seen at least every 6 months.",
-            "answer": "Yes, there is a relationship. Document A states that a 30-year-old with no medical history requires a full physical exam every year, while Document B specifies that routine lipid panels and glucose checks are mandatory during biennial visits for patients with pre-existing conditions. This links the physical exam requirement in Document A to the screening exceptions in Document B, as both involve mandatory health screenings. The shared concept is the requirement for health assessments, making them related in terms of medical necessity.",
+            "answer": "Sentence 1: A relationship does not exist.  \nSentence 2: Document A discusses a physical exam requirement, while Document B mentions lipid panel and glucose checks, which are unrelated medical topics.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.32101374864578247
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             }
         ]
@@ -731,26 +731,26 @@
         {
             "query_chunk": "QUERY 3: A healthy 30-year-old with no medical history is required to have a full physical exam every single year.",
             "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
-            "answer": "Yes, there is a relationship. Document A's requirement for a physical exam every year and Document B's 3-month lifestyle intervention align with health and wellness goals. Both emphasize proactive health management, making them interconnected.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A mentions a health requirement for a physical exam, while Document B discusses lifestyle modifications. Both focus on health promotion, though the specific methods differ.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.31590694189071655
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
@@ -769,7 +769,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
@@ -783,7 +783,7 @@
         {
             "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
             "document_chunk": "DOCUMENT 4\nTitle: Emergency Triage: Acute Respiratory Distress\nDepartment: Emergency Medicine\nStatus: High Priority\nImmediate Action: If a patient presents with a pulse oximetry reading below 92%, immediate supplemental oxygen must be administered regardless of prior history.",
-            "answer": "Yes, there is a relationship between Document A and Document B. Document A explicitly states that oxygen must be administered immediately if oxygen saturation drops below 92%, while Document B confirms this action is required for patients with pulse oximetry readings below 92%. Both documents align with emergency protocols for oxygen administration, establishing a direct connection.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A specifies that oxygen must be administered immediately, bypassing standard delays, while Document B confirms the same protocol for patients with pulse oximetry below 92%.  \nSentence 3: No uncertainty.",
             "score": 0.6585861444473267
         },
         [
@@ -806,7 +806,7 @@
                 "correct": false
             },
             {
-                "grounded": false,
+                "grounded": true,
                 "relevant": true,
                 "retrieval_relevant": true,
                 "correct": true
@@ -835,7 +835,7 @@
         {
             "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
             "document_chunk": "Urgency Details:\nIf a patient reports sudden \"floaters\" or flashes of light, they must be seen by a specialist within 24 hours.",
-            "answer": "No relationship exists between Document A and Document B. Document A discusses emergency protocols for oxygen saturation, while Document B outlines urgent care for floaters. Both topics involve urgency, but they are unrelated in terms of shared concepts or logical connections.",
+            "answer": "A relationship exists. Sentence 1: A relationship exists. Sentence 2: Document A discusses medical protocols in response to oxygen saturation, while Document B mentions medical urgency related to sudden flashes. Sentence 3: No relevant documents were retrieved.",
             "score": 0.3390313386917114
         },
         [
@@ -849,13 +849,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -873,13 +879,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -887,7 +887,7 @@
         {
             "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
             "document_chunk": "Emergency Indicators:\nUncontrolled nosebleeds lasting longer than 15 minutes require immediate ER evaluation.\n\nDOCUMENT 16\nTitle: Neonatal Jaundice Screening\nDepartment: Maternity\nTiming: All newborns must be screened for bilirubin levels within 24 hours of birth.",
-            "answer": "There is no direct relationship between Document A and Document B. Document A discusses emergency protocols for oxygen delivery, while Document B outlines emergency indicators for specific medical cases. However, there is no explicit connection between these two documents, as they pertain to separate medical scenarios.  \n\nThe reasoning is that Document A focuses on immediate oxygen protocols, while Document B’s indicators are about emergency evaluations, which are distinct from each other. Thus, no shared concepts or logical connections exist between them.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A states that oxygen saturation below 92% necessitates immediate oxygen delivery, aligning with emergency protocols, while Document B highlights uncontrolled nosebleeds requiring ER, which also supports immediate action.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.32020628452301025
         },
         [
@@ -895,19 +895,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -919,19 +907,31 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             }
         ]
     ],
@@ -939,7 +939,7 @@
         {
             "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
             "document_chunk": "Reporting:\nEvery use of restrictive measures must be documented in the Electronic Health Record within 1 hour.\n\nDOCUMENT 20\nTitle: Influenza Vaccination Mandate\nDepartment: Occupational Health\nStaff Requirements: All clinical staff must receive the annual flu vaccine by November 1st.",
-            "answer": "No relationship between the documents. Document A discusses emergency protocols for oxygen saturation, while Document B focuses on EHR documentation for restrictive measures. There is no shared concept or connection between these two sets of information.",
+            "answer": "No relationship exists.",
             "score": 0.3186143636703491
         },
         [
@@ -947,19 +947,25 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -977,13 +983,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -991,7 +991,7 @@
         {
             "query_chunk": "QUERY 4: If a patient’s oxygen saturation drops below 92%, emergency protocols dictate that nurses must provide oxygen immediately, bypassing standard intake delays.",
             "document_chunk": "Yellow Zone:\nUse rescue inhaler (Albuterol) if coughing or wheezing occurs during physical activity.",
-            "answer": "Yes, there is a relationship. Document A explains emergency protocols for oxygen delivery in cases of low oxygen saturation, while Document B outlines an inhaler (Albuterol) for treating coughing/wheezing during physical activity. Both involve medical interventions aimed at addressing respiratory issues, establishing a shared concept of emergency medical protocols.",
+            "answer": "A relationship exists. Document A mentions emergency protocols requiring immediate oxygen delivery when oxygen saturation drops below 92%, while Document B specifies using an inhaler (Albuterol) for coughing/wheezing during physical activity. The two contexts are unrelated, as oxygen protocols and inhaler usage are distinct medical interventions. \n\nNo relationship exists.",
             "score": 0.2973520755767822
         },
         [
@@ -1010,31 +1010,31 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": false,
+                "retrieval_relevant": true,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": false,
+                "retrieval_relevant": true,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": false,
+                "retrieval_relevant": true,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": false,
-                "correct": false
+                "retrieval_relevant": true,
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": false,
+                "retrieval_relevant": true,
                 "correct": false
             }
         ]
@@ -1043,7 +1043,7 @@
         {
             "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
             "document_chunk": "Screening Exceptions:\nRoutine fasting lipid panels and glucose checks are mandatory during these biennial visits. \nPatients with pre-existing chronic conditions (e.g., Diabetes, Asthma) are exempt from this timeline and must be seen at least every 6 months.",
-            "answer": "Yes, there is a relationship. Document A establishes that patients with chronic illnesses like Diabetes should have a biennial check-up, while Document B explicitly states that these patients are exempt and must see every 6 months. This relationship arises from shared concepts of patients with chronic conditions requiring specific check-up schedules.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A states patients with chronic illnesses like Diabetes should follow a biennial check-up schedule, while Document B specifies that patients with pre-existing conditions (including Diabetes) are exempt from this schedule. Both documents mention the same biennial check-up frequency, establishing semantic overlap.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.5371785163879395
         },
         [
@@ -1068,7 +1068,7 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
@@ -1095,7 +1095,7 @@
         {
             "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
             "document_chunk": "DOCUMENT 3\nTitle: Annual Physical and Preventative Screening\nDepartment: General Medicine\nPolicy Year: 2026\nGeneral Screening: Healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.",
-            "answer": "Yes, there is a relationship. Document A states that patients with chronic illnesses like Diabetes should have a biennial check-up schedule, while Document B mentions a comprehensive physical exam once every two years for healthy adults. The shared concepts are the check-up frequency (biennial vs. once every two years) and the general health screening recommendation. The relationship is based on the overlap in frequency and the context of screening for specific chronic conditions.",
+            "answer": "A relationship exists.  \nSentence 1: Document A states that patients with chronic illnesses like Diabetes should have a biennial check-up, while Document B specifies that healthy adults aged 18–45 should undergo a comprehensive physical exam once every two years.  \nSentence 2: Both documents reference similar check-up schedules, with the timing and subject matter aligning between patients with chronic illnesses and healthy adults.  \nSentence 3: No further uncertainty is present.",
             "score": 0.44174087047576904
         },
         [
@@ -1147,7 +1147,7 @@
         {
             "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
             "document_chunk": "DOCUMENT 10\nTitle: Diabetic Retinal Screening\nDepartment: Ophthalmology\nEffective Date: January 2026\nStandard: All patients diagnosed with Type 2 Diabetes must receive a dilated eye exam annually to screen for retinopathy.",
-            "answer": "No relationship. Document A states that patients with chronic illnesses like diabetes should follow a biennial check-up schedule, while Document B details a screening for retinopathy that occurs annually. The schedules are distinct, so there is no direct connection between them.  \n\nThe reasoning is that Document A and Document B focus on different health check-up aspects, making them unrelated in terms of content or purpose.  \n\n(Explanation: Both documents mention patients with chronic conditions, but their schedules (biennial vs. annual) are distinct, indicating no shared concept or relationship.)",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A specifies a biennial check-up schedule, while Document B mentions an annual retinal screening. Both documents discuss diabetes patients needing check-ups, even if the frequency differs.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.3509068489074707
         },
         [
@@ -1155,43 +1155,43 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             }
         ]
     ],
@@ -1199,19 +1199,13 @@
         {
             "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
             "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
-            "answer": "There is a relationship between Document A and Document B. Both discuss patients needing specific care plans, with Document A emphasizing a biennial check-up schedule and Document B highlighting lifestyle modifications. The shared concepts of patient care involve structured routines, which aligns with the two documents' focus on patients' health management.  \n\nThe reasoning is that both documents emphasize patients' health goals, though the connection is indirect and based on similar concepts of structured care.  \n\n(Three sentences maximum.)",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A specifies a biennial check-up for patients with chronic illnesses like diabetes, while Document B outlines a 3-month lifestyle modification program. Both documents discuss health-related recommendations for patients, emphasizing check-ups and lifestyle interventions.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.34078526496887207
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
                 "retrieval_relevant": false,
                 "correct": false
             },
@@ -1238,6 +1232,12 @@
                 "relevant": true,
                 "retrieval_relevant": false,
                 "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
@@ -1251,7 +1251,7 @@
         {
             "query_chunk": "QUERY 5: Patients with chronic illnesses like Diabetes should follow the same biennial (every two years) check-up schedule as healthy adults.",
             "document_chunk": "DOCUMENT 28\nTitle: Geriatric Fall Prevention\nDepartment: Physical Therapy\nInitial Assessment: Patients over age 65 must undergo a \"Timed Up and Go\" (TUG) test during their initial intake.\n\nSafety Measures:\nNon-slip socks and bed alarms are mandatory for patients identified as \"High Fall Risk\".",
-            "answer": "Yes, there is a relationship between Document A and Document B. Both documents discuss patients over 65 with health check-up schedules and fall prevention measures. Document A specifies a biennial check-up for chronic illnesses, while Document B details a TUG test for geriatric patients, both emphasizing their health needs. The shared focus on age and health prevention directly ties the two documents together.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A mentions patients with chronic illnesses needing a biennial check-up, while Document B discusses a TUG test for patients over 65. These topics are distinct, so there's no explicit semantic connection.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.30384254455566406
         },
         [
@@ -1289,7 +1289,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
@@ -1303,7 +1303,7 @@
         {
             "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
             "document_chunk": "DOCUMENT 7\nTitle: Employee Professional Development Fund\nDepartment: Talent & Culture\nEffective: Fiscal Year 2026\nAnnual Stipend: Each full-time employee is eligible for a $2,500 annual stipend for certifications, conferences, or tuition reimbursement.",
-            "answer": "Yes, there is a relationship between Document A and Document B. Both documents mention a $2,500 professional development stipend, with Document A explicitly linking it to a hotel stay during a coding conference and Document B describing the same stipend for certifications, conferences, or tuition reimbursement. The shared concepts of professional development activities explain the connection.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A specifies that the $2,500 stipend allows hotel stay reimbursement during a coding conference, while Document B confirms the same stipend supports conferences or tuition reimbursement.  \nSentence 3: No uncertainty.",
             "score": 0.5162829756736755
         },
         [
@@ -1355,7 +1355,7 @@
         {
             "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
             "document_chunk": "Expense Rules:\nRequests must be submitted via the internal portal at least 30 days prior to the event date. \nThe fund cannot be used for travel, lodging, or meal expenses, which must be filed under the standard Travel & Expense policy.",
-            "answer": "No relationship exists between Document A and Document B. Document A states that employees can use their stipend for a coding conference, while Document B specifies that the fund cannot be used for travel, lodging, or meal expenses. These two documents are unrelated in terms of shared concepts, as Document A's stipend is tied to a specific event, whereas Document B's rules are about fund usage categories. The lack of overlap in their purposes and the exclusion of coding-related expenses from Document B's rules means no direct connection.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A states that employees can use their $2,500 professional development stipend for a hotel stay during a coding conference, while Document B specifies that the stipend cannot be used for travel, lodging, or meal expenses. This directly connects the stipend's intended use in Document A with the restrictions outlined in Document B.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.2628515958786011
         },
         [
@@ -1369,13 +1369,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1393,7 +1393,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1407,7 +1407,7 @@
         {
             "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
             "document_chunk": "Uninsured Support:\nA 20% \"prompt pay\" discount is applied to self-pay patients who settle their balance within 30 days.",
-            "answer": "There is no relationship between Document A and Document B. Document A discusses an employee's use of a professional development stipend for a coding conference, while Document B mentions a medical discount for self-pay patients. The two contexts are unrelated, as they refer to different financial scenarios.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A mentions an employee using a professional development stipend for expenses, while Document B discusses a prompt pay discount for patients. These contexts are unrelated.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.20784258842468262
         },
         [
@@ -1415,19 +1415,25 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1445,13 +1451,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -1459,7 +1459,7 @@
         {
             "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
             "document_chunk": "Capacity Restrictions:\nNo more than two visitors are permitted in a double-occupancy room at any single time.",
-            "answer": "Yes, there is a relationship. Document A states that employees use a stipend for a hotel stay during a coding conference, while Document B mentions that double-occupancy rooms can only have two people. This implies that the employees are using a hotel room for their conference, aligning with the capacity restriction. The relationship stems from the stipend's use being tied to the room's capacity, making the connection valid. (Explanation: The stipend's purpose relates to the hotel's capacity, as the conference would require a double-occupancy room. Uncertainty arises if the specific room capacity was not explicitly mentioned in Document A.)",
+            "answer": "A relationship exists. Document A states that employees use their $2,500 stipend for a hotel stay during a coding conference, while Document B mentions capacity restrictions for hotel occupancy. There is no explicit semantic overlap between these two documents.",
             "score": 0.16616785526275635
         },
         [
@@ -1497,7 +1497,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
@@ -1511,7 +1511,7 @@
         {
             "query_chunk": "QUERY 7: Employees can use their $2,500 professional development stipend to pay for their hotel stay while attending a coding conference.",
             "document_chunk": "DOCUMENT 10\nTitle: Diabetic Retinal Screening\nDepartment: Ophthalmology\nEffective Date: January 2026\nStandard: All patients diagnosed with Type 2 Diabetes must receive a dilated eye exam annually to screen for retinopathy.",
-            "answer": "Yes, there is a relationship. Document A states that employees can use their $2,500 professional development stipend for a hotel stay during a coding conference, while Document B mentions a diabetic retinal screening program. The stipend and the screening both relate to professional development and health screenings, suggesting potential overlap in their purposes. However, the connection between the stipend and the screening is indirect, as the documents do not explicitly link the two.",
+            "answer": "A relationship exists. Document A mentions employees using professional development funds for a hotel stay, while Document B discusses a screening program for diabetics. No explicit semantic connection between these topics.",
             "score": 0.16289782524108887
         },
         [
@@ -1549,7 +1549,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
@@ -1563,7 +1563,7 @@
         {
             "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
             "document_chunk": "Auth Protocols:\nMandatory password changes are required every 90 days for all administrative accounts. \nMulti-Factor Authentication (MFA) is strictly required for all remote logins and access to sensitive financial databases.",
-            "answer": "No relationship. Document A states password changes every 3 months, while Document B specifies 90 days. The two timeframes are distinct, indicating no direct connection between the policies.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A specifies that IT administrators must update passwords every three months, while Document B states that mandatory password changes are required every 90 days and MFA is mandatory for remote logins. These differences in frequency and protocols indicate overlapping concepts.  \nSentence 3: No uncertainty.",
             "score": 0.6189091205596924
         },
         [
@@ -1577,12 +1577,6 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": true,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
                 "correct": false
             },
             {
@@ -1601,7 +1595,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": true,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": true,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1615,7 +1615,7 @@
         {
             "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
             "document_chunk": "Patient Notification:\nAffected individuals must be notified via first-class mail within 60 days of breach discovery.",
-            "answer": "There is no relationship between Document A and Document B. Document A discusses security practices for IT administrators, while Document B focuses on patient notification protocols. The shared concept of security is present in both, but there is no explicit connection between the entities involved.",
+            "answer": "A relationship exists. Document A mentions IT administrators updating passwords, while Document B discusses notifying patients. These actions are unrelated as they pertain to different domains (security vs. patient notification). No explicit semantic link is found.",
             "score": 0.25863027572631836
         },
         [
@@ -1629,7 +1629,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1667,7 +1667,7 @@
         {
             "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
             "document_chunk": "Policy Details:\nIf blood pressure remains elevated after 3 months, initiate low-dose ACE inhibitors or Calcium Channel Blockers. \nPatients should perform home blood pressure monitoring twice daily (morning and evening) and log results.",
-            "answer": "There is no relationship between Document A and Document B. Document A discusses IT password policies, while Document B outlines blood pressure monitoring guidelines. Neither document addresses the other's content, making the connection unclear.",
+            "answer": "A relationship does not exist between the documents.",
             "score": 0.22579419612884521
         },
         [
@@ -1699,7 +1699,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1719,7 +1719,7 @@
         {
             "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
             "document_chunk": "DOCUMENT 22\nTitle: HIPAA Data Breach Protocol\nDepartment: Legal and IT Compliance\nReporting Timeline: Any unauthorized access to Patient Protected Health Information (PHI) must be reported to the Privacy Officer within 24 hours.",
-            "answer": "Yes, there is a relationship. Document A's requirement for password updates aligns with Document B's HIPAA Data Breach Protocol, as both focus on system security measures. The shared concept of security protocols ensures compliance with HIPAA standards, making the connection between the two documents. (3 sentences)",
+            "answer": "A relationship exists. Sentence 1: A relationship exists. Sentence 2: Document A discusses IT password updates for security, while Document B focuses on HIPAA data breach reporting protocols. Both are about security, but the specific actions and protocols differ. Sentence 3: No.",
             "score": 0.22490179538726807
         },
         [
@@ -1756,13 +1756,13 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             }
         ]
@@ -1771,7 +1771,7 @@
         {
             "query_chunk": "QUERY 8: For security reasons, IT administrators must update their system passwords every three months.",
             "document_chunk": "Preparation:\nAll jewelry and wearable electronics must be stored in secured lockers prior to entry.\n\nDOCUMENT 18\nTitle: Laboratory Sample Labeling\nDepartment: Pathology\nLabeling Accuracy: Vials must be labeled at the bedside in the presence of the patient with two unique identifiers.",
-            "answer": "No relationship between the documents. Document A discusses password security policies, while Document B mentions secure storage of jewelry/electronics. Document 18's sample labeling system is unrelated to the topics in A or B. The connection is unclear based on shared concepts.",
+            "answer": "Sentence 1: A relationship does not exist.  \nSentence 2: Document A discusses IT security password updates, while Document B mentions jewelry storage, which are unrelated topics.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.18090534210205078
         },
         [
@@ -1779,7 +1779,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1815,7 +1815,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -1823,45 +1823,45 @@
         {
             "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
             "document_chunk": "DOCUMENT 9\nTitle: Regional Shipping and Logistics\nDepartment: Supply Chain\nRevision Date: February 2026\nStandard Delivery: Domestic orders are shipped via ground transport with an expected delivery window of 5–7 business days.",
-            "answer": "Yes, there is a relationship. Document A states that a customer spending $60 is eligible for free standard ground shipping, which aligns with Document B's standard delivery terms (shipping via ground with a 5–7 business day window). The connection is that free shipping is a standard part of the shipping service outlined in Document B.",
+            "answer": "A relationship exists. Sentence 1: \"A relationship exists.\" Sentence 2: \"The customer's spending on a new keyboard in Document A and the shipping details in Document B are unrelated, as Document B discusses shipping time, while Document A focuses on customer eligibility.\" Sentence 3: \"No relevant documents were retrieved.\"",
             "score": 0.34607505798339844
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
@@ -1875,7 +1875,7 @@
         {
             "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
             "document_chunk": "Shipping Constraints:\nAny shipment containing lithium-ion batteries must be labeled \"Class 9 Miscellaneous\" and is ineligible for air transport.",
-            "answer": "Yes, there is a relationship. Document A states that a customer eligible for free shipping due to spending $60 on a new keyboard, which involves lithium-ion batteries. Document B specifies that lithium-ion batteries must be labeled \"Class 9 Miscellaneous\" and ineligible for air transport. The connection is based on the shared concept of lithium-ion batteries being part of the keyboard's components, which triggers the shipping constraints outlined in Document B.",
+            "answer": "A relationship exists. Sentence 1: A relationship exists. Sentence 2: Document A mentions a customer's spending on a keyboard, while Document B discusses battery labeling and shipping constraints. There is no explicit semantic link between the two documents. Sentence 3: No relevant documents were retrieved.",
             "score": 0.20177388191223145
         },
         [
@@ -1913,12 +1913,12 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             }
         ]
@@ -1927,7 +1927,7 @@
         {
             "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
             "document_chunk": "Uninsured Support:\nA 20% \"prompt pay\" discount is applied to self-pay patients who settle their balance within 30 days.",
-            "answer": "No relationship exists between the documents. Document A describes a customer's eligible purchase and free shipping, while Document B outlines a discount for self-pay patients. These topics are unrelated, as the discount does not apply to the product in Document A or the customer's spending.",
+            "answer": "No relationship exists.",
             "score": 0.1941630244255066
         },
         [
@@ -1941,13 +1941,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1959,7 +1953,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -1979,7 +1979,7 @@
         {
             "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
             "document_chunk": "Patient Notification:\nAffected individuals must be notified via first-class mail within 60 days of breach discovery.",
-            "answer": "No relationship exists between Document A and Document B. Document A discusses a customer's eligibility for free shipping due to a purchase, while Document B outlines notification procedures for breach-related information. There is no shared concept or thematic connection between the two documents.",
+            "answer": "A relationship exists. Document A mentions a customer eligible for free shipping due to a purchase, while Document B discusses a breach notification system requiring first-class mail within 60 days. No semantic overlap is evident between these topics.",
             "score": 0.16169369220733643
         },
         [
@@ -1993,13 +1993,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2031,7 +2031,7 @@
         {
             "query_chunk": "QUERY 9: A customer who spends $60 on a new keyboard is eligible for free standard ground shipping.",
             "document_chunk": "Preparation:\nAll jewelry and wearable electronics must be stored in secured lockers prior to entry.\n\nDOCUMENT 18\nTitle: Laboratory Sample Labeling\nDepartment: Pathology\nLabeling Accuracy: Vials must be labeled at the bedside in the presence of the patient with two unique identifiers.",
-            "answer": "There is no direct relationship between Document A and Document B. Document A discusses a customer's eligibility for free shipping, while Document B focuses on jewelry storage requirements. No shared concepts or implied connections exist between these two documents.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A discusses a customer's eligibility for free shipping due to a purchase, while Document B specifies that jewelry must be stored in secured lockers. There is no direct semantic link between the two documents.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.1373457908630371
         },
         [
@@ -2045,13 +2045,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2063,7 +2057,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2083,7 +2083,7 @@
         {
             "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
             "document_chunk": "Auth Protocols:\nMandatory password changes are required every 90 days for all administrative accounts. \nMulti-Factor Authentication (MFA) is strictly required for all remote logins and access to sensitive financial databases.",
-            "answer": "There is a relationship between Document A and Document B. Document A states that a 16-character password is required for remote access, while Document B outlines protocols such as mandatory password changes every 90 days and MFA for sensitive systems. Both documents emphasize security measures, making the connection between security protocols and specific implementation details clear.  \n\nThe reasoning is that Document A provides a specific security protocol (password length) and Document B outlines a broader set of security protocols (frequency and MFA), which share the concept of implementing security measures.  \n\nNo uncertainty is present in the relationship.",
+            "answer": "No relationship exists.",
             "score": 0.4609171152114868
         },
         [
@@ -2120,8 +2120,8 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": false,
-                "correct": false
+                "retrieval_relevant": true,
+                "correct": true
             },
             {
                 "grounded": false,
@@ -2135,7 +2135,7 @@
         {
             "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
             "document_chunk": "Patient Notification:\nAffected individuals must be notified via first-class mail within 60 days of breach discovery.",
-            "answer": "No relationship exists between Document A and Document B. Document A discusses security protocols for remote access, while Document B focuses on patient notification systems. The topics are distinct, and there's no shared concept or thematic overlap between them.",
+            "answer": "A relationship exists. Sentence 1: \"A relationship exists.\" Sentence 2: \"Document A discusses security protocols, while Document B mentions patient communication. There are no overlapping concepts or shared claims between the two documents.\" Sentence 3: \"No relevant documents were retrieved.\"",
             "score": 0.2385997772216797
         },
         [
@@ -2149,13 +2149,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2179,7 +2179,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -2187,7 +2187,7 @@
         {
             "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
             "document_chunk": "Preparation:\nAll jewelry and wearable electronics must be stored in secured lockers prior to entry.\n\nDOCUMENT 18\nTitle: Laboratory Sample Labeling\nDepartment: Pathology\nLabeling Accuracy: Vials must be labeled at the bedside in the presence of the patient with two unique identifiers.",
-            "answer": "Yes, there is a relationship between Document A and Document B. Document A emphasizes secure remote access protocols, while Document B outlines secure storage practices (lockers for jewelry/electronics). Both documents share concepts of security measures, reinforcing that secure storage and access are critical components of protection.  \n\nNo uncertainty exists in this relationship. Both documents address security through physical and digital safeguards.",
+            "answer": "A relationship does not exist between the documents. No explicit semantic relationship is found between the content of Document A (security protocols) and Document B (lab sample labeling).",
             "score": 0.22950273752212524
         },
         [
@@ -2201,7 +2201,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
@@ -2213,25 +2219,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             }
         ]
     ],
@@ -2239,7 +2239,7 @@
         {
             "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
             "document_chunk": "DOCUMENT 8\nTitle: Password and Authentication Standard\nDepartment: Information Security\nVersion: 4.2\nPassword Complexity: Passwords must be at least 16 characters long and include a mix of uppercase, lowercase, numbers, and symbols.",
-            "answer": "Yes, there is a relationship. Document A states that remote access requires an additional layer beyond a 16-character password, while Document B specifies that passwords must be at least 16 characters long and include uppercase, lowercase, numbers, and symbols. This directly links the two documents by highlighting shared requirements for password length and complexity.",
+            "answer": "A relationship exists. Sentence 1: \"A relationship exists.\" Sentence 2: \"Document A states that remote access requires an additional layer of security beyond a 16-character password, which aligns with Document B's requirement that passwords must be at least 16 characters long and include a mix of uppercase, lowercase, numbers, and symbols.\" Sentence 3: \"No relevant documents were retrieved.\"",
             "score": 0.21326696872711182
         },
         [
@@ -2291,50 +2291,50 @@
         {
             "query_chunk": "QUERY 10: All remote access to company systems requires an additional layer of security beyond just a 16-character password.",
             "document_chunk": "DOCUMENT 22\nTitle: HIPAA Data Breach Protocol\nDepartment: Legal and IT Compliance\nReporting Timeline: Any unauthorized access to Patient Protected Health Information (PHI) must be reported to the Privacy Officer within 24 hours.",
-            "answer": "Yes, there is a relationship. Document A mentions a 16-character password as an additional security layer, which aligns with Document B's HIPAA Data Breach Protocol requirements. Both emphasize security protocols to protect patient data, indicating a shared focus on safeguarding sensitive information. However, the specific details in Document A (like the 16-character password) are not directly tied to Document B's reporting timelines or compliance obligations.",
+            "answer": "No relationship exists between the documents.",
             "score": 0.20858299732208252
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             }
         ]
@@ -2343,7 +2343,7 @@
         {
             "query_chunk": "QUERY 11: The office cafeteria provides free catered lunch every Friday for all full-time medical staff.",
             "document_chunk": "DOCUMENT 7\nTitle: Employee Professional Development Fund\nDepartment: Talent & Culture\nEffective: Fiscal Year 2026\nAnnual Stipend: Each full-time employee is eligible for a $2,500 annual stipend for certifications, conferences, or tuition reimbursement.",
-            "answer": "There is no direct relationship between Document A and Document B. Document A describes a cafeteria program for medical staff, while Document B outlines a professional development fund for employees. The two documents pertain to separate employee benefits but lack shared concepts or connections.  \n\nThe reasoning is that the programs are distinct initiatives aimed at different employee categories, with no overlap in their purposes or shared elements.  \n\n(No uncertainty in this case.)",
+            "answer": "Sentence 1: No relationship exists.  \nSentence 2: Document A mentions free cafeteria lunch for medical staff, while Document B discusses a professional development fund. There is no explicit connection between the two documents.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.27046388387680054
         },
         [
@@ -2357,13 +2357,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2381,13 +2387,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -2395,7 +2395,7 @@
         {
             "query_chunk": "QUERY 11: The office cafeteria provides free catered lunch every Friday for all full-time medical staff.",
             "document_chunk": "DOCUMENT 11\nTitle: Controlled Substance Prescription Policy\nDepartment: Pharmacy Compliance\nRefill Rules: Schedule II controlled substances cannot be refilled; a new prescription is required for every dispensing event.",
-            "answer": "There is no relationship between Document A and Document B. Document A discusses a cafeteria program for medical staff, while Document B details a Controlled Substance Prescription Policy with refill rules. No shared concepts or logical connections exist between them.",
+            "answer": "Sentence 1: No relationship exists.  \nSentence 2: Document A discusses a cafeteria service for medical staff, while Document B covers a Controlled Substance Prescription Policy. There is no overlap in concepts or claims.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.23953330516815186
         },
         [
@@ -2409,13 +2409,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2433,13 +2439,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -2447,7 +2447,7 @@
         {
             "query_chunk": "QUERY 11: The office cafeteria provides free catered lunch every Friday for all full-time medical staff.",
             "document_chunk": "Reporting:\nEvery use of restrictive measures must be documented in the Electronic Health Record within 1 hour.\n\nDOCUMENT 20\nTitle: Influenza Vaccination Mandate\nDepartment: Occupational Health\nStaff Requirements: All clinical staff must receive the annual flu vaccine by November 1st.",
-            "answer": "No relationship exists between the documents. Document A and Document 20 discuss unrelated topics—Document A's cafeteria policy and Document 20's influenza vaccination mandate. There is no shared concept or connection between their content.",
+            "answer": "Sentence 1: A relationship does not exist.  \nSentence 2: Document A discusses a cafeteria offering lunch to medical staff, while Document B covers restrictive measures and influenza vaccination mandates. No semantic overlap between the two documents.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.23033857345581055
         },
         [
@@ -2467,7 +2467,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2499,7 +2499,7 @@
         {
             "query_chunk": "QUERY 11: The office cafeteria provides free catered lunch every Friday for all full-time medical staff.",
             "document_chunk": "Uninsured Support:\nA 20% \"prompt pay\" discount is applied to self-pay patients who settle their balance within 30 days.",
-            "answer": "No relationship exists between the documents. Document A describes a cafeteria benefit for medical staff, while Document B mentions a discount for self-pay patients. These topics are unrelated, as the discount applies to patients and the lunch is for staff, lacking shared concepts or connections.",
+            "answer": "Sentence 1: No relationship exists.  \nSentence 2: Document A discusses a cafeteria service, while Document B mentions a payment discount offer. There is no explicit connection between these concepts.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.18623191118240356
         },
         [
@@ -2513,13 +2513,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2537,13 +2543,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -2551,7 +2551,7 @@
         {
             "query_chunk": "QUERY 11: The office cafeteria provides free catered lunch every Friday for all full-time medical staff.",
             "document_chunk": "Lifestyle Interventions: All patients must first attempt a 3-month period of lifestyle modification, including the DASH diet and 150 minutes of weekly aerobic exercise.",
-            "answer": "There is a relationship between the documents. Document A mentions a cafeteria offering free lunch to medical staff, while Document B discusses patients undergoing lifestyle interventions like the DASH diet and exercise. The shared concepts of health benefits and patient care align, suggesting that both contexts relate to health-related practices, though the specific connection between the two is not explicitly stated.",
+            "answer": "A relationship exists. Sentence 1: A relationship exists. Sentence 2: Document A discusses a cafeteria service for medical staff, while Document B talks about lifestyle interventions for patients. These topics are unrelated. Sentence 3: No relevant documents were retrieved.",
             "score": 0.1860349178314209
         },
         [
@@ -2603,7 +2603,7 @@
         {
             "query_chunk": "QUERY 12: All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.",
             "document_chunk": "Auth Protocols:\nMandatory password changes are required every 90 days for all administrative accounts. \nMulti-Factor Authentication (MFA) is strictly required for all remote logins and access to sensitive financial databases.",
-            "answer": "Yes, there is a relationship. Document A mentions hardware refreshes for laptops every 24 months, while Document B specifies password changes every 90 days and MFA for administrative accounts. These protocols are related to IT infrastructure management, but the exact connection between the schedules and the protocols is not explicitly tied.  \n\nNo direct relationship exists between the two documents.  \n\nNo.",
+            "answer": "A relationship exists. Sentence 1: \"A relationship exists.\" Sentence 2: \"Document A mentions hardware refreshes for laptops, while Document B discusses password changes and MFA requirements. These topics are unrelated.\" Sentence 3: \"No relevant documents were retrieved.\"",
             "score": 0.27157866954803467
         },
         [
@@ -2616,13 +2616,13 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
@@ -2655,7 +2655,7 @@
         {
             "query_chunk": "QUERY 12: All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.",
             "document_chunk": "Screening Exceptions:\nRoutine fasting lipid panels and glucose checks are mandatory during these biennial visits. \nPatients with pre-existing chronic conditions (e.g., Diabetes, Asthma) are exempt from this timeline and must be seen at least every 6 months.",
-            "answer": "No relationship exists between Document A and Document B. Document A discusses a laptop return policy with a specific time frame, while Document B outlines medical screening exceptions with biennial intervals. These topics are unrelated, as they address different domains (laptop management vs. medical testing).  \n\nThe reasoning is that the two documents do not share any overlapping concepts or logical connections between their content.",
+            "answer": "A relationship exists. Document A mentions laptop return schedules, while Document B discusses medical screening requirements. These topics are unrelated. I don't know. No relevant documents were retrieved.",
             "score": 0.26617300510406494
         },
         [
@@ -2663,19 +2663,25 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2693,13 +2699,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -2707,7 +2707,7 @@
         {
             "query_chunk": "QUERY 12: All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.",
             "document_chunk": "DOCUMENT 11\nTitle: Controlled Substance Prescription Policy\nDepartment: Pharmacy Compliance\nRefill Rules: Schedule II controlled substances cannot be refilled; a new prescription is required for every dispensing event.",
-            "answer": "No relationship exists between Document A and Document B. Document A discusses laptop return schedules, while Document B addresses Controlled Substance Prescription Policy refill rules. There is no shared concept or subject matter between these two documents.",
+            "answer": "No relationship exists. Document A discusses laptop hardware refreshes, while Document B covers Controlled Substance Prescription Policy refill rules. There is no overlap in concepts or claims.",
             "score": 0.24612069129943848
         },
         [
@@ -2715,12 +2715,6 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
                 "correct": true
             },
             {
@@ -2733,13 +2727,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": false
+                "correct": true
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
                 "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
@@ -2759,14 +2759,14 @@
         {
             "query_chunk": "QUERY 12: All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.",
             "document_chunk": "DOCUMENT 22\nTitle: HIPAA Data Breach Protocol\nDepartment: Legal and IT Compliance\nReporting Timeline: Any unauthorized access to Patient Protected Health Information (PHI) must be reported to the Privacy Officer within 24 hours.",
-            "answer": "Yes, there is a relationship between Document A and Document B. Document A specifies a 24-month period for returning company-issued laptops, while Document B outlines a 24-hour reporting timeline for HIPAA compliance. Both involve time-based protocols, but the contexts differ: Document A is about IT systems, while Document B is about healthcare data. The shared concept of time frames indicates a similarity in structure, though the actual connection remains speculative.",
+            "answer": "I don't know. No relevant documents were retrieved.",
             "score": 0.22064197063446045
         },
         [
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
@@ -2778,26 +2778,26 @@
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
+                "retrieval_relevant": false,
                 "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
-                "retrieval_relevant": true,
-                "correct": false
+                "retrieval_relevant": false,
+                "correct": true
             },
             {
                 "grounded": false,
@@ -2811,7 +2811,7 @@
         {
             "query_chunk": "QUERY 12: All company-issued laptops must be returned to the IT department for hardware refreshes every 24 months.",
             "document_chunk": "DOCUMENT 10\nTitle: Diabetic Retinal Screening\nDepartment: Ophthalmology\nEffective Date: January 2026\nStandard: All patients diagnosed with Type 2 Diabetes must receive a dilated eye exam annually to screen for retinopathy.",
-            "answer": "No relationship exists between the documents. Document A discusses laptop return schedules, while Document B mentions retinal screening for diabetes patients. There is no shared concept or purpose between the two topics.",
+            "answer": "Sentence 1: No relationship exists.  \nSentence 2: Document A discusses company policy for laptop returns, while Document B covers a medical screening program unrelated to laptops.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.19633817672729492
         },
         [
@@ -2825,13 +2825,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2849,13 +2855,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -2863,7 +2863,7 @@
         {
             "query_chunk": "QUERY 13: Employees are allowed to bring their pets into the office as long as they remain in a designated \"Pet-Friendly Zone.\"",
             "document_chunk": "Capacity Restrictions:\nNo more than two visitors are permitted in a double-occupancy room at any single time.",
-            "answer": "No relationship exists between the documents. Document A mentions a pet-policy rule in a \"Pet-Friendly Zone,\" while Document B specifies capacity restrictions for double-occupancy rooms. These two documents address different aspects of facility policies but lack shared concepts or logical connections.",
+            "answer": "A relationship exists. Sentence 1: A relationship exists. Sentence 2: Document A discusses pet access in a Pet-Friendly Zone, while Document B mentions room capacity restrictions. No explicit semantic overlap between the two documents. Sentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.2926638722419739
         },
         [
@@ -2877,13 +2877,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2915,7 +2915,7 @@
         {
             "query_chunk": "QUERY 13: Employees are allowed to bring their pets into the office as long as they remain in a designated \"Pet-Friendly Zone.\"",
             "document_chunk": "DOCUMENT 13\nTitle: Post-Operative Wound Care\nDepartment: Surgical Nursing\nMaintenance: Surgical sites must remain dry for the first 48 hours; do not submerge in water (baths or pools).",
-            "answer": "There is no relationship between the documents. Document A discusses pet-friendly zones for employees, while Document B covers post-operative wound care requirements. The topics are unrelated, and there's no shared concept or context to link them.",
+            "answer": "Sentence 1: A relationship exists.  \nSentence 2: Document A mentions a Pet-Friendly Zone for employees, while Document B discusses dry conditions for surgical sites. These concepts are unrelated.  \nSentence 3: No relevant documents were retrieved.",
             "score": 0.2885117530822754
         },
         [
@@ -2929,13 +2929,19 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
+            },
+            {
+                "grounded": false,
+                "relevant": true,
+                "retrieval_relevant": false,
+                "correct": false
             },
             {
                 "grounded": false,
@@ -2953,13 +2959,7 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
-            },
-            {
-                "grounded": false,
-                "relevant": true,
-                "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             }
         ]
     ],
@@ -2967,7 +2967,7 @@
         {
             "query_chunk": "QUERY 13: Employees are allowed to bring their pets into the office as long as they remain in a designated \"Pet-Friendly Zone.\"",
             "document_chunk": "Patient Requirements:\nPatients are responsible for ensuring a private, quiet environment for the duration of the 20-minute session.",
-            "answer": "No relationship exists between the documents. Document A discusses work policies related to pet-friendly zones, while Document B focuses on patient care requirements. There is no shared concept or thematic connection between the two documents.",
+            "answer": "A relationship exists.  \nSentence 1: No relevant documents were retrieved.  \nSentence 2: There is no explicit semantic relationship between the documents.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.2566976547241211
         },
         [
@@ -3019,7 +3019,7 @@
         {
             "query_chunk": "QUERY 13: Employees are allowed to bring their pets into the office as long as they remain in a designated \"Pet-Friendly Zone.\"",
             "document_chunk": "Preparation:\nAll jewelry and wearable electronics must be stored in secured lockers prior to entry.\n\nDOCUMENT 18\nTitle: Laboratory Sample Labeling\nDepartment: Pathology\nLabeling Accuracy: Vials must be labeled at the bedside in the presence of the patient with two unique identifiers.",
-            "answer": "No relationship exists between Document A and Document B. Document A discusses a pet policy in an office, while Document B covers jewelry storage in lockers. These topics are unrelated, as there's no shared concept or thematic overlap.",
+            "answer": "A relationship exists. Document A mentions a Pet-Friendly Zone for employees, while Document B discusses secured lockers for jewelry and electronics, and Document 18 mentions labeling patients with identifiers. There is no explicit connection between these topics.  \n\nNo relationship exists. The documents discuss unrelated topics: one about pet policy, another about storage requirements, and a third about patient labeling.",
             "score": 0.2534761428833008
         },
         [
@@ -3033,13 +3033,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
@@ -3071,7 +3071,7 @@
         {
             "query_chunk": "QUERY 13: Employees are allowed to bring their pets into the office as long as they remain in a designated \"Pet-Friendly Zone.\"",
             "document_chunk": "Mandatory Equipment:\nAll patients on immunotherapy are required to carry a personal epinephrine auto-injector.",
-            "answer": "No relationship exists between Document A and Document B. Document A discusses pet-friendly policies for employees, while Document B addresses medical equipment requirements for immunotherapy patients. They share no common concepts or logical connections.",
+            "answer": "Sentence 1: No relationship exists.  \nSentence 2: Document A discusses pet policies in an office, while Document B covers medical equipment requirements for immunotherapy patients. There is no overlap in concepts or actions.  \nSentence 3: I don't know. No relevant documents were retrieved.",
             "score": 0.22051334381103516
         },
         [
@@ -3085,13 +3085,13 @@
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,
                 "relevant": true,
                 "retrieval_relevant": false,
-                "correct": true
+                "correct": false
             },
             {
                 "grounded": false,

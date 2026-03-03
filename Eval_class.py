@@ -6,19 +6,6 @@ class EvalGrade(TypedDict):
     relevant: Annotated[bool, ..., "True if answer is relevant to query"]
     retrieval_relevant: Annotated[bool, ..., "True if retrieved facts are relevant"]
     correct: Annotated[bool, ..., "True if answer is factually correct"]
-
-def scores_result (results: list[EvalGrade]) -> dict[str, float, float]:
-    total = len(results)
-    if total == 0:
-        return {metric: 0 for metric in ["grounded", "relevant", "retrieval_relevant", "correct"]}
-    scores = {metric: (0, total, 0.0) for metric in ["grounded", "relevant", "retrieval_relevant", "correct"]}
-    for _, eval in results:
-        for metric in scores.keys():
-            if eval[metric]:
-                scores[metric] = (scores[metric][0] + 1, total, (scores[metric][0] + 1) / total )
-            else:
-                scores[metric] = (scores[metric][0], total, scores[metric][0] / total )
-    return scores
     
 eval_instructions = """
 You are a strict RAG evaluator. Do not give any explanations or justifications. 
@@ -49,16 +36,8 @@ Return booleans.
 A value of True means that the ANSWER meets all of the criteria, otherwise False.
 If the FACTS are empty or irrelevant, grounded and retrieval_relevant should be False but the other criteria can still be True if the ANSWER is relevant and correct based on the QUERY and GROUND TRUTH alone.
 """
-eval_llm = ChatOllama(
-    model="llama3.1:8b",
-    temperature=0
-).with_structured_output(
-    EvalGrade,
-    method="json_schema",
-    strict=True
-)
 
-def evaluate(outputs: dict, truth: dict) -> dict:
+def evaluate(outputs: dict, truth: dict, llm: ChatOllama) -> dict:
     prompt = f"""
 QUERY:
 {outputs['query_chunk']}
@@ -76,7 +55,7 @@ GROUND TRUTH RELEVANT DOC:
 {truth['relevant_doc']}
 """
 
-    grade = eval_llm.invoke([
+    grade = llm.invoke([
         {"role": "system", "content": eval_instructions},
         {"role": "user", "content": prompt},
     ])

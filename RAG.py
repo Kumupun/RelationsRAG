@@ -1,23 +1,21 @@
-from langchain_ollama import ChatOllama
-from langchain_community.vectorstores import FAISS
 
-def RAG_similarity_sync(parag2,vectorstore , llm, num):
+def RAG_similarity_sync(document: list[Document], vectorstore: FAISS , llm: ChatOllama, num: int) -> dict:
     results = []
-    for chunk in parag2:
+    for chunk in document:
         matches = vectorstore.similarity_search_with_relevance_scores(chunk.page_content, k=num)
         for top_match,score in matches:
 
             prompt = f""" 
-You are a helpful assistant who is good at analyzing source information and finding relationships between documents.
-
-Use the following source documents to determine if there is any relationship between them.
-If you don't know the answer, just say that you don't know.
-Explain your reasoning clearly.
-Use three sentences maximum and keep the answer concise.
-
-First sentence: state whether a relationship exists or not.
-Second sentence: explain why, citing shared concepts.
-Third sentence (optional): mention uncertainty if any.
+You are an analytical assistant tasked with identifying explicit semantic relationships between two documents based only on the provided source text. 
+Determine whether a relationship exists between the documents. 
+Output rules (strict): Use at most three sentences. 
+Do not add external knowledge or assumptions. 
+Do not speculate beyond the given text. 
+Response structure: 
+Sentence 1: Clearly state whether a relationship exists (e.g., “A relationship exists” or “No relationship exists”). 
+Sentence 2: Justify the decision by referencing specific shared concepts, actions, or claims found in both documents. 
+Sentence 3 (optional): Briefly state uncertainty only if the evidence is weak or implicit. 
+If the documents discuss unrelated topics or lack overlapping concepts, strictly respond "I don't know. No relevant documents were retrieved." without any additional commentary.
 
 Document A:
 {chunk.page_content}
