@@ -47,3 +47,9 @@ This script runs the complete RAG experiment:
 4. LLM semantic relationship judgment
 5. Structured evaluation
 6. Threshold optimization with W&B logging
+
+/assets/W&B Chart Best threshold.png
+/assets/W&B Chart F1 score.png
+/assets/W&B Chart Precision.png
+/assets/W&B Chart Recall.png
+/assets/W&B Chart Weighted score.png
