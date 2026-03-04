@@ -107,7 +107,7 @@ The judge model produces structured outputs validated via JSON schema.
   <img src="assets/wandb_chart_weighted_score.png" width="500">
   
   ### Threshold Optimization
-  <img src="assets/wandb_chart_best_threshold.png" width="800">
+  <img src="assets/wandb_chart_best_threshold.png" width="500">
 
   **Observation:**  
   Rigid and specific prompt variants achieved perfect F1 scores, indicating strong alignment between retrieval filtering and structured evaluation constraints.
