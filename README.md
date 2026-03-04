@@ -3,6 +3,10 @@
 A synchronous modular Retrieval-Augmented Generation (RAG) system with similarity-based retrieval, LLM-as-Judge evaluation, prompt optimization, and threshold tuning tracked via Weights & Biases.
 
 ## Overview
+The primary objective for this project is to optimize the navigation of complex legal texts and accelerate the identification of cross-document relationships. Unlike standard search tools, this pipeline is designed to parse dense, technical legal language where the relationship between clauses is often more important than keyword matching.
+
+**THE Core idea** is a RAG system that will find similarities, supports and contradictions between documents.
+
 This project implements a synchronous RAG pipeline with:
 
 - FAISS-based dense retrieval
@@ -47,7 +51,7 @@ This project implements a synchronous RAG pipeline with:
 5. Structured evaluation
 6. Threshold optimization with W&B logging
 
-  ```mermaid
+```mermaid
 graph TD
     A[Documents] --> B[Recursive Splitter]
     B --> C[Embeddings]
@@ -62,7 +66,7 @@ graph TD
     G --> H[Threshold Sweep]
     H --> I[W&B Logging]
 ```
-### Evaluation Logic
+## Evaluation Logic
 The judge model produces structured outputs validated via JSON schema.
 ```json
 {
@@ -119,7 +123,7 @@ The judge model produces structured outputs validated via JSON schema.
 - Overlap size: 50(docs), 0 (queries)
 
 > [!NOTE]
-> Configuration parameters can be externalized via environment variables or a config file.
+> Configuration parameters can be modified via environment variables or a config file.
 
 ## Requirements
 This project was developed and tested with the following environment:
@@ -128,7 +132,7 @@ This project was developed and tested with the following environment:
 - Weights & Biases account (for experiment tracking)
   
 ### Core Python Dependencies
-```
+```txt
 langchain
 langchain-community
 langchain-ollama
