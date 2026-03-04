@@ -17,6 +17,7 @@ RESULTS_PATH = r"Documents\results_medical.json"
 RAG_MODEL = "qwen3:0.6b"
 JUDGE_MODEL = "llama3.1:8b"
 EMBEDDING = "nomic-embed-text"
+TOP_K_CHUNKS = 5
 
 parag_split1 = chunking(DOCUMENT_PATH, chunk_size=300, chunk_overlap=50)
 parag_split2 = chunking(QUERY_PATH, chunk_size=200, chunk_overlap=0)
@@ -53,9 +54,8 @@ def json_output(results, filename):
 
 def main():
     t0 = time.perf_counter()
-    k=5
-    rag_results = RAG_similarity_sync(parag_split2, vectorstore, rag_llm, k)
-    print(f"Sample number {k} retrieved for each query chunk.")
+    rag_results = RAG_similarity_sync(parag_split2, vectorstore, rag_llm, TOP_K_CHUNKS)
+    print(f"Sample number {TOP_K_CHUNKS} retrieved for each query chunk.")
 
     t1 = time.perf_counter()
     
