@@ -4,8 +4,8 @@
 
 This project implements a Retrieval-Augmented Generation to automatically detect and evaluate relationships between two documents.
 
-Document A (`Doc1.txt`) is indexed in a vector database and acts as the knowledge base.  
-Document B (`Doc2.txt`) is treated as the query document and is processed chunk-by-chunk.
+Document A is indexed in a vector database and acts as the knowledge base.  
+Document B is treated as the query document and is processed chunk-by-chunk.
 
 For each chunk in Document B, the system retrieves relevant chunks from Document A, asks an LLM to determine whether a relationship exists, and then evaluates the generated relationship using LLM-as-judge metrics.
 
@@ -20,17 +20,13 @@ The goal is to identify concise, grounded relationships such as agreement, contr
    - Retrieve top-k similar chunks from Document A
    - Ask an LLM to infer a relationship
    - Evaluate the result using multiple LLM-based judges
-
+5. Tune the threshold and find the best score.
 
 ## Document Processing
 
 ### Loading
 
-- `Doc1.txt` - treated as source document (Document A)
-- `Doc2.txt` - treated as query document (Document B)
-
-Both are loaded as LangChain `Document` objects with metadata indicating their origin.
-
+Documents are loaded as LangChain `Document` objects with metadata indicating their origin.
 
 ### Chunking Strategy
 
@@ -65,7 +61,7 @@ Document B chunks are used purely as queries.
 For each chunk in Document B:
 
 - Perform similarity search against FAISS
-- Retrieve top 3 matches
+- Retrieve top n matches
 - Select the top match as Document B’s counterpart
 
 If no matches are found, the system returns “I don’t know.”
@@ -137,6 +133,16 @@ Checks whether the relationship:
 
 Output: `True / False`
 
+## Threshold Tuning 
+We run a grid search across threshold values $[0.2, 0.3, \dots, 1.0]$ to identify the best for relationship detection.
+We track the following metrics specifically to evaluate the threshold's effectiveness:
+
+- Precision - Percentage of identified relationships that are actually valid.
+- Recall - Percentage of total document relationships successfully captured.
+- F1-Score - The harmonic mean of Precision and Recall.
+- Weighred Score - The parameter driven score for adjusting priority search.
+
 ## Output
 
 The system converts and saves the result to json file.
+Tuning and grid search results are transferred to W&B project.
