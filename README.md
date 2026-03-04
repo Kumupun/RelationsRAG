@@ -48,8 +48,16 @@ This script runs the complete RAG experiment:
 5. Structured evaluation
 6. Threshold optimization with W&B logging
 
-/assets/W&B Chart Best threshold.png
-/assets/W&B Chart F1 score.png
-/assets/W&B Chart Precision.png
-/assets/W&B Chart Recall.png
-/assets/W&B Chart Weighted score.png
+| Prompt version | Precision | Recall | F1 | Threshold |
+| :---: | :---: | :---: | :---: | :---: |
+| Qwen0.6_loose prompt | 1 | 0.7778 | 0.875 | 0.475 |
+| Qwen0.6_rigid prompt | 1 | 1 | 1 | 0.354 |
+| Qwen0.6_small | 1 | 1 | 1 | 0.273 |
+| Qwen0.6_specific | 1 | 1 | 1 | 0.345 |
+
+<img src="/assets/wandb_chart_precision.png" alt="Project Logo" width="800">
+<img src="/assets/wandb_chart_recall.png" alt="Project Logo" width="800">
+<img src="/assets/wandb_chart_f1_score.png" alt="Project Logo" width="800">
+<img src="/assets/wandb_chart_weighted_score.png" alt="Project Logo" width="800">
+<img src="/assets/wandb_chart_best_threshold.png" alt="Project Logo" width="800">
+
