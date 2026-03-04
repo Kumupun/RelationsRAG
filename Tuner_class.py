@@ -17,7 +17,7 @@ class ThresholdTuner:
 
     def tune(self):
 
-        wandb.init(entity="grumpy_ananas-none", project="RAG", reinit='finish_previous')
+        wandb.init(entity=os.getenv("WANDB_NAME"), project=os.getenv("WANDB_PROJECT"), reinit='finish_previous')
 
         best_score = -1
         best_threshold = None
