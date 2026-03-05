@@ -1,5 +1,5 @@
 
-def RAG_similarity_sync(document: list[Document], vectorstore: FAISS , llm: ChatOllama, num: int) -> dict:
+def rag_similarity_sync(document: list[Document], vectorstore: FAISS , llm: ChatOllama, num: int) -> dict:
     results = []
     for chunk in document:
         matches = vectorstore.similarity_search_with_relevance_scores(chunk.page_content, k=num)

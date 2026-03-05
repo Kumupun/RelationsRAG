@@ -2,18 +2,18 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 
-from RAG import RAG_similarity_sync
-from Chunking import chunking
-from Tuner_class import ThresholdTuner
-from Eval_class import EvalGrade, evaluate
+from rag import rag_similarity_sync
+from chunking import chunking
+from tuner_class import ThresholdTuner
+from eval_class import EvalGrade, evaluate
 
 import json
 import time
 
-DOCUMENT_PATH = r"Documents\Doc_medical.txt"
-QUERY_PATH = r"Documents\Medical_query.txt"
-GROUND_TRUTH_PATH = r"Documents\GT_medical.json"
-RESULTS_PATH = r"Documents\results_medical.json"
+DOCUMENT_PATH = r"documents\doc_medical.txt"
+QUERY_PATH = r"documents\medical_query.txt"
+GROUND_TRUTH_PATH = r"documents\gt_medical.json"
+RESULTS_PATH = r"documents\results_medical.json"
 RAG_MODEL = "qwen3:0.6b"
 JUDGE_MODEL = "llama3.1:8b"
 EMBEDDING = "nomic-embed-text"
@@ -54,7 +54,7 @@ def json_output(results, filename):
 
 def main():
     t0 = time.perf_counter()
-    rag_results = RAG_similarity_sync(parag_split2, vectorstore, rag_llm, TOP_K_CHUNKS)
+    rag_results = rag_similarity_sync(parag_split2, vectorstore, rag_llm, TOP_K_CHUNKS)
     print(f"Sample number {TOP_K_CHUNKS} retrieved for each query chunk.")
 
     t1 = time.perf_counter()
